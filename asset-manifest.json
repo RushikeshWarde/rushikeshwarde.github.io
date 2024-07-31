@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rushikesh.github.io/static/css/main.54f6ed9c.css",
-    "main.js": "/rushikesh.github.io/static/js/main.fd49b6b8.js",
-    "static/media/bg-vr.jpg": "/rushikesh.github.io/static/media/bg-vr.c40b60e1dde5c32fcb75.jpg",
-    "static/media/bg1.jpg": "/rushikesh.github.io/static/media/bg1.71a28027225b8ae945bb.jpg",
-    "static/media/bg4.jpg": "/rushikesh.github.io/static/media/bg4.01ad1068585185f35555.jpg",
-    "static/media/bg3.jpg": "/rushikesh.github.io/static/media/bg3.850b808854f295b2c596.jpg",
-    "static/media/login.jpg": "/rushikesh.github.io/static/media/login.ab931d77bfe905914456.jpg",
-    "static/media/bg7.jpg": "/rushikesh.github.io/static/media/bg7.6249276d677cd6fd680e.jpg",
-    "static/media/bg5.jpg": "/rushikesh.github.io/static/media/bg5.d60a95eb31d6400f802f.jpg",
-    "static/media/bg8.jpg": "/rushikesh.github.io/static/media/bg8.2c89438b189a2a391f19.jpg",
-    "static/media/li-pfp.jpeg": "/rushikesh.github.io/static/media/li-pfp.24191e3f83ab0c3806a3.jpeg",
-    "static/media/nucleo-outline.eot": "/rushikesh.github.io/static/media/nucleo-outline.56814a6b7240045e1494.eot",
-    "static/media/nucleo-outline.ttf": "/rushikesh.github.io/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
-    "static/media/nucleo-outline.woff": "/rushikesh.github.io/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
-    "static/media/nucleo-outline.woff2": "/rushikesh.github.io/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
-    "index.html": "/rushikesh.github.io/index.html",
-    "main.54f6ed9c.css.map": "/rushikesh.github.io/static/css/main.54f6ed9c.css.map",
-    "main.fd49b6b8.js.map": "/rushikesh.github.io/static/js/main.fd49b6b8.js.map"
+    "main.css": "/static/css/main.eed7015d.css",
+    "main.js": "/static/js/main.0cfc7653.js",
+    "static/media/bg-vr.jpg": "/static/media/bg-vr.c40b60e1dde5c32fcb75.jpg",
+    "static/media/bg1.jpg": "/static/media/bg1.71a28027225b8ae945bb.jpg",
+    "static/media/bg4.jpg": "/static/media/bg4.01ad1068585185f35555.jpg",
+    "static/media/bg3.jpg": "/static/media/bg3.850b808854f295b2c596.jpg",
+    "static/media/login.jpg": "/static/media/login.ab931d77bfe905914456.jpg",
+    "static/media/bg7.jpg": "/static/media/bg7.6249276d677cd6fd680e.jpg",
+    "static/media/bg5.jpg": "/static/media/bg5.d60a95eb31d6400f802f.jpg",
+    "static/media/bg8.jpg": "/static/media/bg8.2c89438b189a2a391f19.jpg",
+    "static/media/li-pfp.jpeg": "/static/media/li-pfp.24191e3f83ab0c3806a3.jpeg",
+    "static/media/nucleo-outline.eot": "/static/media/nucleo-outline.56814a6b7240045e1494.eot",
+    "static/media/nucleo-outline.ttf": "/static/media/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+    "static/media/nucleo-outline.woff": "/static/media/nucleo-outline.1a1036e643f97457ec5f.woff",
+    "static/media/nucleo-outline.woff2": "/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
+    "index.html": "/index.html",
+    "main.eed7015d.css.map": "/static/css/main.eed7015d.css.map",
+    "main.0cfc7653.js.map": "/static/js/main.0cfc7653.js.map"
   },
   "entrypoints": [
-    "static/css/main.54f6ed9c.css",
-    "static/js/main.fd49b6b8.js"
+    "static/css/main.eed7015d.css",
+    "static/js/main.0cfc7653.js"
   ]
 }

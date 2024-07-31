@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Button, Container,UncontrolledTooltip } from "reactstrap";
 
 // core components
 
@@ -38,8 +38,37 @@ function ProfilePageHeader() {
           <div className="photo-container">
             <img class="rounded-circle img-raised" alt="..." src={require("assets/img/li-pfp.jpeg")}></img>
           </div>
-          <h3 className="title">Rushikesh Warde</h3>
-          <p className="category">VR Developer</p>
+          <h2 className="title">Rushikesh Warde</h2>
+          <h3 className="category">VR Developer</h3>
+          <div className="text-center">
+              <Button
+                className="btn-round btn-icon"
+                color="info"
+                id="tooltip-linkedin"
+                target="_blank"
+                size="lg"
+                href="https://www.linkedin.com/in/rushikesh-warde/"
+                onClick={(e) => e.preventDefault()}
+              >
+                <i className="fab fa-linkedin"></i>
+              </Button>
+              <UncontrolledTooltip delay={0} target="#tooltip-linkedin">
+                Connect with me on Linkedin
+              </UncontrolledTooltip>
+              <Button
+                className="btn-round btn-icon"
+                color="info"
+                id="tooltip-youtube"
+                size="lg"
+                href="https://www.youtube.com/@RW_Soft"
+                onClick={(e) => e.preventDefault()}
+              >
+                <i className="fab fa-youtube"></i>
+              </Button>
+              <UncontrolledTooltip delay={0} target="#tooltip-youtube">
+                Subscribe to my YouTube channel
+              </UncontrolledTooltip>
+            </div>
         </Container>
       </div>
     </>

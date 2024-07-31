@@ -24,26 +24,19 @@ import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.5.0";
 import "assets/demo/demo.css?v=1.5.0";
 import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
-// pages for this kit
-//import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-//import LoginPage from "views/examples/LoginPage.js";
-//import LandingPage from "views/examples/LandingPage.js";
 import ProjectsBlogPage from "views/ProjectsBlogPage.js"
-import ProfilePage from "views/examples/ProfilePage.js";
+import ProfilePage from "views/ProfilePage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-      {/*<Route path="/index" element={<Index />} />*/}
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
       <Route path="/projects" element={<ProjectsBlogPage />} />
       <Route path="/profile" element={<ProfilePage />} />
-      {/*<Route path="/login-page" element={<LoginPage />} /> */}
       <Route path="*" element={<Navigate to="/profile" replace />} />
-      {/*<Route path="*" element={<Navigate to="/index" replace />} />*/}
     </Routes>
   </BrowserRouter>
 );

@@ -57,8 +57,8 @@ function CarouselSection() {
     <>
       <div className="section" id="carousel">
         <Container>
-          <div className="title">
-            <h4>Carousel</h4>
+          <div className="title text-center">
+            <h2>Screenshots</h2>
           </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">

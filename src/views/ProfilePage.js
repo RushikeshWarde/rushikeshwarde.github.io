@@ -40,34 +40,6 @@ function ProfilePage() {
         <ProfilePageHeader />
         <div className="section">
           <Container>
-            <div className="button-container">
-              <Button
-                className="btn-round btn-icon"
-                color="info"
-                id="tooltip-linkedin"
-                size="lg"
-                href="https://www.linkedin.com/in/rushikesh-warde/"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-linkedin"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-linkedin">
-                Connect with me on Linkedin
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round btn-icon"
-                color="info"
-                id="tooltip-youtube"
-                size="lg"
-                href="https://www.youtube.com/@RW_Soft"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-youtube"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-youtube">
-                Subscribe to my YouTube channel
-              </UncontrolledTooltip>              
-            </div>
             <h3 className="title">About me</h3>
             <h5 className="description">
               As a creative VR Developer, I am dedicated to crafting immersive and innovative virtual experiences. With a deep passion for technology and storytelling, I specialize in blending cutting-edge VR technologies with engaging game mechanics. My work focuses on pushing the limits of what's possible in virtual reality, exploring new dimensions of interaction, and creating experiences that captivate and inspire. Dive into my projects and join me on this exciting journey through the virtual realm!

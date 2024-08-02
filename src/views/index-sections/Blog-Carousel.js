@@ -10,27 +10,8 @@ import {
   CarouselIndicators
 } from "reactstrap";
 
-// core components
-
-const items = [
-  {
-    src: require("assets/img/bg1.jpg"),
-    altText: "Nature, United States",
-    caption: "Nature, United States"
-  },
-  {
-    src: require("assets/img/bg3.jpg"),
-    altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States"
-  },
-  {
-    src: require("assets/img/bg4.jpg"),
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States"
-  }
-];
-
-function CarouselSection() {
+//items passed on blog page
+function CarouselSection({items}) {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
@@ -61,7 +42,7 @@ function CarouselSection() {
             <h2>Screenshots</h2>
           </div>
           <Row className="justify-content-center">
-            <Col lg="8" md="12">
+            <Col lg="10" md="12">
               <Carousel
                 activeIndex={activeIndex}
                 next={next}

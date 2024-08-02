@@ -14,10 +14,10 @@ small{
 }
 
 a{
-    color: $primary-color;
+    color: currentColor;
     &:hover,
     &:focus{
-        color: $primary-color;
+        color: currentColor;
     }
 }
 h1, .h1 {

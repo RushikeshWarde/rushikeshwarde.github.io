@@ -1,0 +1,85 @@
+import React from "react";
+import { Link } from 'react-router-dom';
+import Tabs from "./index-sections/Tabs-Project-Listing.js";
+
+// reactstrap components
+import {
+  Button,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  TabContent,
+  TabPane,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
+
+// core components
+import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
+import DefaultFooter from "components/Footers/DefaultFooter.js";
+
+function ProjectsListingPage() {
+  
+  //For Page Name
+  const title = "VR Development Showcase"
+  
+  const [pills, setPills] = React.useState("1");
+  const [firstFocus, setFirstFocus] = React.useState(false);
+  const [lastFocus, setLastFocus] = React.useState(false);
+  React.useEffect(() => {
+    document.body.classList.add("landing-page");
+    document.body.classList.add("sidebar-collapse");
+    document.documentElement.classList.remove("nav-open");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    return function cleanup() {
+      document.body.classList.remove("landing-page");
+      document.body.classList.remove("sidebar-collapse");
+    };
+  }, []);
+  return (
+    <>
+      <ExamplesNavbar />
+      <div className="wrapper">
+        <ProjectsPageHeader title={title} />
+        <div className="section section-about-us">
+          <Container>
+            <Row>
+              <Col className="ml-auto mr-auto text-center" md="10">
+                <br></br><br></br>
+                <h2 className="title">Welcome to My VR Project Gallery</h2>
+                <h5>
+                    Explore an array of innovative VR projects designed to push the boundaries of immersive technology. 
+                    Each project represents a unique blend of creativity, technical expertise, and a passion for creating 
+                    compelling virtual experiences. From interactive training simulations to captivating VR games, see how 
+                    these projects utilize virtual reality to craft engaging and transformative experiences.
+                </h5>
+                <br></br><br></br>
+                <h3> Featured Projects </h3>
+                <h5>
+                    Dive into detailed descriptions, view stunning visuals, and watch demonstration videos of each project. 
+                    Whether you're a fellow developer, potential collaborator, or VR enthusiast, you'll find a wealth of 
+                    knowledge and inspiration in these cutting-edge VR innovations. Each project is thoroughly documented 
+                    to provide a deep understanding of the development process, technical complexities, and the creative 
+                    solutions employed.
+                    <br></br>
+                    Feel free to reach out through the provided contact links for any inquiries or potential collaborations. 
+                    Enjoy exploring my VR development showcase!
+                </h5>
+              </Col>
+            </Row>
+            <Row>
+              <Tabs />
+            </Row>
+          </Container>
+        </div>
+        <DefaultFooter />
+      </div>
+    </>
+  );
+}
+
+export default ProjectsListingPage;

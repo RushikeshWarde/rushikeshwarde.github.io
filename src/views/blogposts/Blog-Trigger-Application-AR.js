@@ -1,6 +1,6 @@
 import React from "react";
-import Carousel from "./index-sections/Carousel-VR-Shooting-Game.js";
-import Tabs from "./index-sections/Tabs-VR-Shooting-Game.js";
+import Carousel from "../index-sections/Blog-Carousel.js";
+import Tabs from "../index-sections/Tabs-VR-Shooting-Game.js";
 import VideoEmbed from "../VideoEmbed.js";
 
 // reactstrap components
@@ -20,10 +20,32 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 
-function ProjectsBlogPage() {
-  
+function Blog_TriggerApplicationAR() {
+
   //For Page Name
-  const title = "Projects Blog Page"
+  const title = "Trigger Application AR"
+  
+  //For Embede Video
+  const videoUrl = "https://www.youtube.com/embed/L6S7TlXKs7U?si=svfp5PDuCb0cZUaT";
+  
+  //For Image Carousel
+  const items = [
+    {
+      src: require("assets/img/mg/md1.png"),
+      altText: "Create Room / Join Room",
+      caption: "Create Room / Join Room"
+    },
+    {
+      src: require("assets/img/mg/md3.png"),
+      altText: "Chat Feature",
+      caption: "Chat Feature"
+    },
+    {
+      src: require("assets/img/mg/md4.png"),
+      altText: "Animation / Movement Sync",
+      caption: "Animation / Movement Sync"
+    }
+  ];
 
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
@@ -47,8 +69,6 @@ function ProjectsBlogPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="10">
-                <br></br><br></br>
-                <h2 className="title">Project Title: VR Shooting Game</h2>
                 <br></br><br></br>
                 <h2> Project Overview </h2>
                 <h5>
@@ -109,4 +129,4 @@ function ProjectsBlogPage() {
   );
 }
 
-export default ProjectsBlogPage;
+export default Blog_TriggerApplicationAR;

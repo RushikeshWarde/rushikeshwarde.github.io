@@ -62,7 +62,7 @@ function ProfilePage() {
                           setPills("1");
                         }}
                       >
-                        <i className="now-ui-icons design_image"></i>
+                        <i className="now-ui-icons media-1_album"></i>
                       </NavLink>
                     </NavItem>
                   </Nav>

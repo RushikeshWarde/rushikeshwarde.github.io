@@ -5,7 +5,7 @@ import { Button, Container,UncontrolledTooltip } from "reactstrap";
 
 // core components
 
-function ProjectsPageHeader() {
+function ProjectsPageHeader({title}) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -34,36 +34,7 @@ function ProjectsPageHeader() {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">VR Development Showcase</h1>
-            <div className="text-center">
-              <Button
-                className="btn-round btn-icon"
-                color="info"
-                id="tooltip-linkedin"
-                target="_blank"
-                size="lg"
-                href="https://www.linkedin.com/in/rushikesh-warde/"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-linkedin"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-linkedin">
-                Connect with me on Linkedin
-              </UncontrolledTooltip>
-              <Button
-                className="btn-round btn-icon"
-                color="info"
-                id="tooltip-youtube"
-                size="lg"
-                href="https://www.youtube.com/@RW_Soft"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-youtube"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-youtube">
-                Subscribe to my YouTube channel
-              </UncontrolledTooltip>
-            </div>
+            <h1 className="title">{title}</h1>
           </Container>
         </div>
       </div>

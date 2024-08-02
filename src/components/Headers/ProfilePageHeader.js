@@ -42,8 +42,7 @@ function ProfilePageHeader() {
           <h3 className="category">VR Developer</h3>
           <div className="text-center">
               <Button
-                className="btn-round btn-icon"
-                color="info"
+                className="btn-neutral btn-icon btn-round btn btn-linkedin btn-lg"
                 id="tooltip-linkedin"
                 target="_blank"
                 size="lg"
@@ -56,8 +55,7 @@ function ProfilePageHeader() {
                 Connect with me on Linkedin
               </UncontrolledTooltip>
               <Button
-                className="btn-round btn-icon"
-                color="info"
+                className="btn-neutral btn-icon btn-round btn btn-youtube btn-lg"
                 id="tooltip-youtube"
                 size="lg"
                 href="https://www.youtube.com/@RW_Soft"

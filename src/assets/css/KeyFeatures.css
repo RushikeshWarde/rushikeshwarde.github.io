@@ -1,0 +1,40 @@
+.key-features-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  scroll-behavior: smooth; /* Smooth scroll for user experience */
+}
+
+.key-features-scroll-container .card {
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+.key-features-scroll-container .card-body {
+  padding: 15px;
+  overflow: visible; /* Change to visible to allow content to display */
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.key-features-scroll-container .card-body p {
+  margin: 0;
+  word-wrap: break-word; /* Ensure long words wrap */
+  white-space: normal; /* Allow normal text wrapping */
+}
+
+.key-features-scroll-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.key-features-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.key-features-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}

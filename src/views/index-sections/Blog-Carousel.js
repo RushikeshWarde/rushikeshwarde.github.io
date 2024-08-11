@@ -10,6 +10,8 @@ import {
   CarouselIndicators
 } from "reactstrap";
 
+import {images} from "assets/imageImports.js"
+
 //items passed on blog page
 function CarouselSection({items}) {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -60,7 +62,7 @@ function CarouselSection({items}) {
                       onExited={onExited}
                       key={item.src}
                     >
-                      <img src={item.src} alt={item.altText} />
+                      <img src={images[item.src]} alt={item.altText} />
                       <div className="carousel-caption d-none d-md-block">
                         <h5>{item.caption}</h5>
                       </div>

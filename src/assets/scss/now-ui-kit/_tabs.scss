@@ -15,7 +15,7 @@
 
     > .nav-item{
         > .nav-link{
-            color: $default-color;
+            color: black;
             margin: 0;
             margin-right: 5px;
             background-color: $transparent-bg;
@@ -30,7 +30,8 @@
             }
 
             &.active{
-                background-color: $light-black;
+                /*background-color: #250c0c52 !important;*/
+                background-color: #4792c0cc !important;
                 border-radius: 30px;
                 color: $white-color;
             }

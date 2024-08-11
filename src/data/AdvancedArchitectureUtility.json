@@ -1,0 +1,85 @@
+{
+  "title": "Advanced Architecture Utility",
+  "ProjectOverview": "'Advanced Architecture Utility' is a sophisticated tool designed for virtual interior design and architecture on the Meta platform. It allows users to modify and customize various aspects of a virtual apartment, including textures, models, furniture, and room layouts. This utility is ideal for architects, interior designers, and homeowners looking to visualize and experiment with different design elements in a virtual space.",
+  "videoUrl" : "https://www.youtube.com/embed/W_UOxtLkqXA?si=ovxhfoIU3NNaVqnV",
+  "carouselItems": [
+    {
+      "src": "aau1",
+      "altText": "Advanced Architecture Utility Screenshot 1",
+      "caption": "Experience intense battles in a fully immersive environment."
+    },
+    {
+      "src": "aau2",
+      "altText": "Advanced Architecture Utility Screenshot 2",
+      "caption": "Engage with enemies using a variety of weapons."
+    },
+    {
+      "src": "aau3",
+      "altText": "Advanced Architecture Utility Screenshot 3",
+      "caption": "Navigate through complex environments and outsmart opponents."
+    }
+  ],
+  "KeyFeatures": [
+    {
+      "title": "Real-Time Texture Modification",
+      "description": "Users can change wall, floor, and ceiling textures dynamically. A user-friendly menu provides a range of texture options, allowing for extensive customization."
+    },
+    {
+      "title": "Furniture Arrangement",
+      "description": "The utility enables the rearrangement of furniture and other interior elements. Users can assess, move, and organize items like cupboards, sofas, and kitchen cabinets. The tool emphasizes efficient space utilization and effective movement techniques to prevent damage."
+    },
+    {
+      "title": "Material and Color Selection",
+      "description": "The platform offers a variety of materials and colors for different elements, such as kitchen cabinets, sofas, and window treatments. The utility showcases how these changes can enhance the aesthetic appeal and ambiance of a space."
+    },
+    {
+      "title": "Lighting Control",
+      "description": "Users can manipulate lighting conditions, such as adjusting window blinds, to influence the room's atmosphere and privacy."
+    },
+    {
+      "title": "Team Collaboration",
+      "description": "The utility supports collaborative efforts, allowing multiple users to work together on a project. This feature is especially useful for professional teams working on large-scale designs."
+    }
+  ],
+  "TechnicalDetails": [
+    {
+      "category": "Platform",
+      "details": "Meta (possibly referring to the Metaverse or a Meta-owned platform like Meta Quest)"
+    },
+    {
+      "category": "User Interface",
+      "details": "The tool features an intuitive menu system that enables easy selection and application of textures and materials."
+    },
+    {
+      "category": "Real-Time Rendering",
+      "details": "The utility supports real-time rendering of changes, allowing users to see immediate visual feedback as they make modifications."
+    },
+    {
+      "category": "3D Model Interaction",
+      "details": "Users can interact with 3D models of furniture and other interior elements, moving and placing them within the virtual space."
+    },
+    {
+      "category": "Customization Options",
+      "details": "A wide range of customization options are available, including different textures, colors, and materials for various surfaces and items."
+    }
+  ],
+  "DemonstrationHighlights": [
+    {
+      "title": "Texture Modification",
+      "description": "The presentation begins by showcasing the process of selecting and applying new textures to an apartment's walls, floors, and ceilings. The real-time rendering feature allows viewers to see the immediate impact of these changes."
+    },
+    {
+      "title": "Furniture Rearrangement",
+      "description": "The video demonstrates how to open cupboards, assess items, and move furniture to optimize space. The importance of careful planning and teamwork is highlighted to ensure efficient and effective space utilization."
+    },
+    {
+      "title": "Interior Design Enhancements",
+      "description": "Changes in the kitchen, such as altering cabinet colors, are shown to illustrate how small modifications can refresh the space. Similarly, adjustments to the sofa and other furniture elements demonstrate how these changes can affect the room's atmosphere and comfort."
+    },
+    {
+      "title": "Lighting Adjustments",
+      "description": "The ability to control lighting, such as closing bedroom blinds, is demonstrated to show how it influences the room's ambiance and privacy."
+    }
+  ],
+  "Conclusion": "'Advanced Architecture Utility' provides a comprehensive and flexible toolset for virtual interior design, allowing users to experiment with various design elements and create customized, aesthetically pleasing spaces."
+}

@@ -11,8 +11,7 @@ import {
   TabPane,
   Container,
   Row,
-  Col,
-  UncontrolledTooltip
+  Col
 } from "reactstrap";
 
 // core components

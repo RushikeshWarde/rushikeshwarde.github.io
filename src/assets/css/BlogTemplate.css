@@ -1,0 +1,38 @@
+/* BlogTemplate.css */
+.blog-template {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .blog-template h1 {
+    margin-bottom: 20px;
+  }
+  
+  .blog-template .content {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .blog-template .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .blog-template .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .blog-template .card-body {
+    padding: 15px;
+  }
+  

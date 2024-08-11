@@ -1,15 +1,10 @@
 import React from "react";
-import Carousel from "./index-sections/Carousel-VR-Shooting-Game.js";
+import Carousel from "./index-sections/Blog-Carousel.js";
 import Tabs from "./index-sections/Tabs-VR-Shooting-Game.js";
-import VideoEmbed from "../VideoEmbed.js";
+import VideoEmbed from "views/VideoEmbed.js";
 
 // reactstrap components
 import {
-  Button,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col
@@ -25,8 +20,26 @@ function ProjectsBlogPage() {
   //For Page Name
   const title = "Projects Blog Page"
 
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
+  const videoUrl = "https://www.youtube.com/embed/L6S7TlXKs7U?si=svfp5PDuCb0cZUaT";
+
+  const items = [
+    {
+      src: require("assets/img/mg/md1.png"),
+      altText: "Create Room / Join Room",
+      caption: "Create Room / Join Room"
+    },
+    {
+      src: require("assets/img/mg/md3.png"),
+      altText: "Chat Feature",
+      caption: "Chat Feature"
+    },
+    {
+      src: require("assets/img/mg/md4.png"),
+      altText: "Animation / Movement Sync",
+      caption: "Animation / Movement Sync"
+    }
+  ];
+
   React.useEffect(() => {
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");

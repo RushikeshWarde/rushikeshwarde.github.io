@@ -1,7 +1,7 @@
 .section{
     padding: 0px 0;
     position: relative;
-    background: $white-color;
+    /*background: $white-color;*/
 
     .row + .category{
         margin-top: $margin-base-vertical;
@@ -16,7 +16,7 @@
 }
 .section-signup{
     padding-top: 20vh;
-}
+} 
 
 .page-header{
   min-height: 100vh;

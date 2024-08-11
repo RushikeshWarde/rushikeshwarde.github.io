@@ -28,6 +28,13 @@ function BlogTemplate({ projectData }) {
     }
   }, [projectName, projectData]);
 
+  // Effect to update the document title
+  useEffect(() => {
+    if (data) {
+      document.title = data.title;  // Set the document title to the project's title
+    }
+  }, [data]);  // Only run when 'data' changes
+
   if (!data) {
     return <LoadingSpinner />;
   }

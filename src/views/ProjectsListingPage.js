@@ -15,6 +15,7 @@ function ProjectsListingPage() {
   const title = "VR Development Showcase";
   
   React.useEffect(() => {
+    document.title = title;
     document.body.classList.add("landing-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");

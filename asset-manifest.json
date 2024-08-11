@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a8e96c26.css",
-    "main.js": "/static/js/main.043e323d.js",
+    "main.js": "/static/js/main.64921819.js",
     "static/js/325.44d42990.chunk.js": "/static/js/325.44d42990.chunk.js",
     "static/js/633.b502e44d.chunk.js": "/static/js/633.b502e44d.chunk.js",
     "static/js/651.323b28d6.chunk.js": "/static/js/651.323b28d6.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/749.9e0b7332.chunk.js": "/static/js/749.9e0b7332.chunk.js",
     "static/js/656.773fc570.chunk.js": "/static/js/656.773fc570.chunk.js",
     "static/js/451.a2f1f3dd.chunk.js": "/static/js/451.a2f1f3dd.chunk.js",
-    "static/js/776.0d05fab7.chunk.js": "/static/js/776.0d05fab7.chunk.js",
+    "static/js/829.76097404.chunk.js": "/static/js/829.76097404.chunk.js",
     "static/js/75.aa7f483a.chunk.js": "/static/js/75.aa7f483a.chunk.js",
     "static/media/bg-vr.jpg": "/static/media/bg-vr.c40b60e1dde5c32fcb75.jpg",
     "static/media/bg1.jpg": "/static/media/bg1.71a28027225b8ae945bb.jpg",
@@ -55,10 +55,10 @@
     "static/media/nucleo-outline.woff2": "/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "index.html": "/index.html",
     "main.a8e96c26.css.map": "/static/css/main.a8e96c26.css.map",
-    "main.043e323d.js.map": "/static/js/main.043e323d.js.map"
+    "main.64921819.js.map": "/static/js/main.64921819.js.map"
   },
   "entrypoints": [
     "static/css/main.a8e96c26.css",
-    "static/js/main.043e323d.js"
+    "static/js/main.64921819.js"
   ]
 }

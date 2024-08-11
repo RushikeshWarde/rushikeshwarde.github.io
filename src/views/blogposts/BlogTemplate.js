@@ -9,9 +9,9 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import Navbar from "components/Navbars/BlogNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultFooter from "components/Footers/Footer.js";
 
 import LoadingSpinner from 'components/LoadingSpinner.js';
 
@@ -41,7 +41,7 @@ function BlogTemplate({ projectData }) {
 
   return (
     <>
-      <ExamplesNavbar />
+      <Navbar />
       <div className="wrapper">
         <ProjectsPageHeader title={data.title} />
         <div className="section section-about-us">

@@ -69,6 +69,7 @@ p{
     line-height: 1.61em;
     //font-weight: 300;
     font-size: 1.2em;
+    margin-bottom: 0;
 }
 
 .title{
@@ -92,7 +93,7 @@ p{
 .description,
 .card-description,
 .footer-big p{
-    color: $dark-gray;
+    color: #223464;
     font-weight: $font-weight-light;
 }
 .category{

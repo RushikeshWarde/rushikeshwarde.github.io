@@ -6,9 +6,9 @@ import projectData from "data/projects.json";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import Navbar from "components/Navbars/ProjectsNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultFooter from "components/Footers/Footer.js";
 
 function ProjectsListingPage() {
   // For Page Name
@@ -29,7 +29,7 @@ function ProjectsListingPage() {
   
   return (
     <>
-      <ExamplesNavbar />
+      <Navbar />
       <div className="wrapper">
         <ProjectsPageHeader title={title} />
         <div className="section section-about-us">

@@ -15,9 +15,9 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import Navbar from "components/Navbars/ProfileNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import DefaultFooter from "components/Footers/Footer.js";
 
 function ProfilePage() {
   const [pills, setPills] = React.useState("1");
@@ -34,7 +34,7 @@ function ProfilePage() {
   }, []);
   return (
     <>
-      <ExamplesNavbar />
+      <Navbar />
       <div className="wrapper">
         <ProfilePageHeader />
         <div className="section">
@@ -105,9 +105,9 @@ function ProfilePage() {
                 <div className="nav-align-center">
                   <Link to="/projects">
                     <Button
-                    className="btn-round btn btn-info btn-lg"
+                    className="btn btn-outline-info btn-lg"
                     size="lg"
-                    >Project Details
+                    ><p><i className="now-ui-icons objects_globe"></i> Projects</p>
                     </Button>
                   </Link>
                 </div>

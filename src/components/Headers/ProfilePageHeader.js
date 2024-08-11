@@ -1,7 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container,UncontrolledTooltip } from "reactstrap";
+import { Container } from "reactstrap";
 
 // core components
 
@@ -30,7 +30,7 @@ function ProfilePageHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/bg5.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/lake.jpg") + ")"
           }}
           ref={pageHeader}
         ></div>
@@ -40,33 +40,6 @@ function ProfilePageHeader() {
           </div>
           <h2 className="title">Rushikesh Warde</h2>
           <h3 className="category">VR Developer</h3>
-          <div className="text-center">
-              <Button
-                className="btn-neutral btn-icon btn-round btn btn-linkedin btn-lg"
-                id="tooltip-linkedin"
-                target="_blank"
-                size="lg"
-                href="https://www.linkedin.com/in/rushikesh-warde/"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-linkedin"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-linkedin">
-                Connect with me on Linkedin
-              </UncontrolledTooltip>
-              <Button
-                className="btn-neutral btn-icon btn-round btn btn-youtube btn-lg"
-                id="tooltip-youtube"
-                size="lg"
-                href="https://www.youtube.com/@RW_Soft"
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fab fa-youtube"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="#tooltip-youtube">
-                Subscribe to my YouTube channel
-              </UncontrolledTooltip>
-            </div>
         </Container>
       </div>
     </>

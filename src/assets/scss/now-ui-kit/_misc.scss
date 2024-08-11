@@ -1,10 +1,14 @@
 body{
-    color: $black-color;
+    color: #223464 !important;
     font-size: $font-size-base;
     font-family: $sans-serif-family;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+}
+
+.table{
+    color: #223464;
 }
 
 .main{

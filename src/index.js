@@ -12,9 +12,13 @@ import Tabs from "views/index-sections/Tabs.js";
 
 //Other Custom Pages
 import ProfilePage from "views/ProfilePage.js";
-import ProjectsListingPage from "views/ProjectsListingPage.js";
+import VRProjectsListingPage from "views/VRProjectsListingPage.js";
+import WebProjectsListingPage from "views/WebProjectsListingPage.js";
+import ARProjectsListingPage from "views/ARProjectsListingPage.js";
 import BlogTemplate from "views/blogposts/BlogTemplate.js";
-import projectData from "data/projects.json"; // Import the JSON data
+import VRProjectData from "data/VRProjects.json"; // Import the JSON data
+import WebProjectData from "data/WebProjects.json"; // Import the JSON data
+import ARProjectData from "data/ARProjects.json"; // Import the JSON data
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -27,21 +31,28 @@ root.render(
       
       <Route path="/about" element={<ProfilePage />} />
       <Route path="*" element={<Navigate to="/about" replace />} />
-      <Route path="/projects" element={<ProjectsListingPage />} />
+      <Route path="/vrProjects" element={<VRProjectsListingPage />} />
+      <Route path="/webProjects" element={<WebProjectsListingPage />} />
+      <Route path="/arProjects" element={<ARProjectsListingPage />} />
       <Route
-        path="/projects/:projectName"
+        path="/vrProjects/:projectName"
         element={
-          <BlogTemplate projectData={projectData} />
+          <BlogTemplate projectData={VRProjectData} />
         }
       />
-      {/* Generate routes dynamically based on the JSON data */}
-      {/* {projectData.map((project) => (
-        <Route
-          key={project.id}
-          path={project.link}
-          element={<BlogTemplate title={project.title} />}
-        />
-      ))} */}
+      <Route
+        path="/webProjects/:projectName"
+        element={
+          <BlogTemplate projectData={WebProjectData} />
+        }
+      />
+      <Route
+        path="/arProjects/:projectName"
+        element={
+          <BlogTemplate projectData={ARProjectData} />
+        }
+      />
     </Routes>
+    
   </BrowserRouter>
 );

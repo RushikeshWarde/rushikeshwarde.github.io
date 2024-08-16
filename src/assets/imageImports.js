@@ -44,7 +44,8 @@ import idv3 from "assets/img/projects/idv-3.jpg";
 import rp1 from "assets/img/projects/rp-1.jpg";
 import rp2 from "assets/img/projects/rp-2.jpg";
 import rp3 from "assets/img/projects/rp-3.jpg";
-// import other images as needed
+
+import cs from "assets/img/coming-soon.jpg"
 
 export const images = {
   vsg1,
@@ -82,6 +83,6 @@ export const images = {
   idv3,
   rp1,
   rp2,
-  rp3
-  // other images
+  rp3,
+  cs
 };

@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "Trigger Application",
+    "image": "ta1",
+    "link": "/projects/trigger-application-ar",
+    "jsonFile": "TriggerApplicationAR.json"
+  }
+]

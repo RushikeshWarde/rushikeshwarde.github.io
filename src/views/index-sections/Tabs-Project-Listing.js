@@ -46,44 +46,59 @@ function Tabs({ projectData }) {
               </Link>
             </Col>
           </Row>
-          <Row>
-            {projectData.slice(1).map((project, index) => (
-              <Col className="ml-auto mr-auto" md="4" xl="4" key={index}>
-                <Link to={project.link}>
-                  <Card>
-                    <CardHeader>
-                      <Nav
-                        className="nav-tabs-neutral justify-content-center"
-                        data-background-color="blue"
-                        role="tablist"
-                        tabs
-                      >
-                        <NavItem>
-                          <NavLink
-                            className={activeTab === (index + 2).toString() ? "active" : ""}
-                            onClick={() => setActiveTab((index + 2).toString())}
-                          >
-                            {project.title}
-                          </NavLink>
-                        </NavItem>
-                      </Nav>
-                    </CardHeader>
-                    <CardBody>
-                      <TabContent className="text-center" activeTab={(index + 2).toString()}>
-                        <TabPane tabId={(index + 2).toString()}>
-                          <img
-                            alt="..."
-                            className="img-raised"
-                            src={images[project.image]}
-                          />
-                        </TabPane>
-                      </TabContent>
-                    </CardBody>
-                  </Card>
-                </Link>
+
+          {projectData.length > 1 ? (
+            <Row>
+              {projectData.slice(1).map((project, index) => (
+                <Col className="ml-auto mr-auto" md="4" xl="4" key={index}>
+                  <Link to={project.link}>
+                    <Card>
+                      <CardHeader>
+                        <Nav
+                          className="nav-tabs-neutral justify-content-center"
+                          data-background-color="blue"
+                          role="tablist"
+                          tabs
+                        >
+                          <NavItem>
+                            <NavLink
+                              className={activeTab === (index + 2).toString() ? "active" : ""}
+                              onClick={() => setActiveTab((index + 2).toString())}
+                            >
+                              {project.title}
+                            </NavLink>
+                          </NavItem>
+                        </Nav>
+                      </CardHeader>
+                      <CardBody>
+                        <TabContent className="text-center" activeTab={(index + 2).toString()}>
+                          <TabPane tabId={(index + 2).toString()}>
+                            <img
+                              alt="..."
+                              className="img-raised"
+                              src={images[project.image]}
+                            />
+                          </TabPane>
+                        </TabContent>
+                      </CardBody>
+                    </Card>
+                  </Link>
+                </Col>
+              ))}
+            </Row>
+          ) : (
+            <Row>
+              <Col className="text-center">
+                <h5>
+                  <img
+                    className="img-raised"
+                    src={images["cs"]}
+                    style={{width:"300px", height:"206px" }}
+                  />
+                </h5>
               </Col>
-            ))}
-          </Row>
+            </Row>
+          )}
         </Container>
       </div>
     </>

@@ -18,10 +18,12 @@ import {
 import Navbar from "components/Navbars/ProfileNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/Footer.js";
+import { icons } from "assets/iconImports.js";
 
 function ProfilePage() {
   const [pills, setPills] = React.useState("1");
   React.useEffect(() => {
+    document.title = "About";
     document.body.classList.add("profile-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
@@ -32,9 +34,11 @@ function ProfilePage() {
       document.body.classList.remove("sidebar-collapse");
     };
   }, []);
+
+  
   return (
     <>
-      <Navbar />
+      <Navbar title="About"/>
       <div className="wrapper">
         <ProfilePageHeader />
         <div className="section">
@@ -101,13 +105,35 @@ function ProfilePage() {
               </TabContent>
             </Row>
             <Row>
-              <Col className="ml-auto mr-auto" md="6">
+              <Col className="ml-auto mr-auto" md="4" xl="4">
                 <div className="nav-align-center">
-                  <Link to="/projects">
+                  <Link to="/vrProjects">
                     <Button
-                    className="btn btn-outline-info btn-lg"
+                    className="btn btn-info btn-lg"
                     size="lg"
-                    ><p><i className="now-ui-icons objects_globe"></i> Projects</p>
+                    ><p><img src={icons["vrProjectIcon"]} style={{ width: "20px", height: "20px" }} /> VR Projects</p>
+                    </Button>
+                  </Link>
+                </div>
+              </Col>
+              <Col className="ml-auto mr-auto" md="4" xl="4">
+                <div className="nav-align-center">
+                  <Link to="/webProjects">
+                    <Button
+                    className="btn btn-info btn-lg"
+                    size="lg"
+                    ><p><img src={icons["webProjectIcon"]} style={{ width: "20px", height: "20px" }} /> Web Projects</p>
+                    </Button>
+                  </Link>
+                </div>
+              </Col>
+              <Col className="ml-auto mr-auto" md="4" xl="4">
+                <div className="nav-align-center">
+                  <Link to="/arProjects">
+                    <Button
+                    className="btn btn-info btn-lg"
+                    size="lg"
+                    ><p><img src={icons["arProjectIcon"]} style={{ width: "20px", height: "20px" }} /> AR Projects</p>
                     </Button>
                   </Link>
                 </div>

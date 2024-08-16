@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
@@ -10,27 +10,27 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-function ProjectsNavbar() {
+function ProjectsNavbar({title}) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const [showTitle, setShowTitle] = useState(false);
+
   React.useEffect(() => {
-    const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 399 ||
-        document.body.scrollTop > 399
-      ) {
+    const updateNavbar = () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop > 399) {
         setNavbarColor("");
-      } else if (
-        document.documentElement.scrollTop < 400 ||
-        document.body.scrollTop < 400
-      ) {
+        setShowTitle(true);
+      } else {
         setNavbarColor("navbar-transparent");
+        setShowTitle(false);
       }
     };
-    window.addEventListener("scroll", updateNavbarColor);
+
+    window.addEventListener("scroll", updateNavbar);
     return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
+      window.removeEventListener("scroll", updateNavbar);
     };
-  });
+  }, []);
   return (
     <>
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
@@ -45,6 +45,20 @@ function ProjectsNavbar() {
                 </Link>
               </NavItem>
             </Nav>
+            {showTitle && (
+            <div
+            style={{
+              position: "absolute",
+              left: "50%",
+              transform: "translateX(-50%)",
+              color: "#fff",
+              textAlign: "center",
+            }}
+          >
+            <h4>{title}</h4>
+          </div>
+
+          )}
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink

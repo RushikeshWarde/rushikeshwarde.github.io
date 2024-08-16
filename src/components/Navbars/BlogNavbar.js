@@ -44,23 +44,20 @@ function BlogNavbar({ title }) {
                 </NavLink>
               </Link>
             </NavItem>
-            <NavItem>
-              <Link to="/about">
-                <NavLink>
-                  <i className="now-ui-icons users_circle-08"></i>
-                  <p>Profile</p>
-                </NavLink>
-              </Link>
-            </NavItem>
           </Nav>
           {showTitle && (
-            <Nav className = "ml-auto mr-auto">
-              <NavItem>
-                <div style={{ color: "#fff", textAlign: "center", flex: 1 }}>
-                  <h4>{title}</h4>
-                </div>
-              </NavItem>
-            </Nav>
+            <div
+            style={{
+              position: "absolute",
+              left: "50%",
+              transform: "translateX(-50%)",
+              color: "#fff",
+              textAlign: "center",
+            }}
+          >
+            <h4>{title}</h4>
+          </div>
+
           )}
           <Nav className="ml-auto" navbar>
             <NavItem>

@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Multiplayer Game",
     "image": "mg3",
-    "link": "/projects/multiplayer-game",
+    "link": "/webProjects/multiplayer-game",
     "jsonFile": "MultiplayerGame.json"
   }
 ]

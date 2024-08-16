@@ -39,7 +39,7 @@ function ProfilePageHeader() {
             <img class="rounded-circle img-raised" alt="..." src={require("assets/img/li-pfp.jpeg")}></img>
           </div>
           <h2 className="title">Rushikesh Warde</h2>
-          <h3 className="category">VR Developer</h3>
+          <h3>VR Developer</h3>
         </Container>
       </div>
     </>

@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 // reactstrap components
 import {
   Button,
-  NavItem,
-  NavLink,
-  Nav,
   TabContent,
   TabPane,
   Container,
@@ -21,7 +18,6 @@ import DefaultFooter from "components/Footers/Footer.js";
 import { icons } from "assets/iconImports.js";
 
 function ProfilePage() {
-  const [pills, setPills] = React.useState("1");
   React.useEffect(() => {
     document.title = "About";
     document.body.classList.add("profile-page");
@@ -50,29 +46,9 @@ function ProfilePage() {
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">My Portfolio</h4>
-                <div className="nav-align-center">
-                  <Nav
-                    className="nav-pills-info nav-pills-just-icons"
-                    pills
-                    role="tablist"
-                  >
-                    <NavItem>
-                      <NavLink
-                        className={pills === "1" ? "active" : ""}
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setPills("1");
-                        }}
-                      >
-                        <i className="now-ui-icons media-1_album"></i>
-                      </NavLink>
-                    </NavItem>
-                  </Nav>
-                </div>
               </Col>
-              <TabContent className="gallery" activeTab={"pills" + pills}>
-                <TabPane tabId="pills1">
+              <TabContent className="gallery">
+                <TabPane>
                   <Col className="ml-auto mr-auto" md="10">
                     <Row className="collections">
                       <Col md="6">

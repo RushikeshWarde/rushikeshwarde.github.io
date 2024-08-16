@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "VR Shooting Game",
-    "image": "vsg1",
+    "image": "vsg5",
     "link": "/projects/vr-shooting-game",
     "jsonFile": "ShootingGameVR.json"
   },
@@ -30,7 +30,7 @@
   {
     "id": 5,
     "title": "Fantasy Land VR",
-    "image": "fl1",
+    "image": "fl2",
     "link": "/projects/fantasy-land-vr",
     "jsonFile": "FantasyLandVR.json"
   },

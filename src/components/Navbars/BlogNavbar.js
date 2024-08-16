@@ -1,86 +1,95 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// reactstrap components
 import {
   Navbar,
   NavItem,
   NavLink,
   Nav,
   Container,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 
-function BlogNavbar() {
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  React.useEffect(() => {
-    const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 399 ||
-        document.body.scrollTop > 399
-      ) {
+function BlogNavbar({ title }) {
+  const [navbarColor, setNavbarColor] = useState("navbar-transparent");
+  const [showTitle, setShowTitle] = useState(false);
+
+  useEffect(() => {
+    const updateNavbar = () => {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      if (scrollTop > 399) {
         setNavbarColor("");
-      } else if (
-        document.documentElement.scrollTop < 400 ||
-        document.body.scrollTop < 400
-      ) {
+        setShowTitle(true);
+      } else {
         setNavbarColor("navbar-transparent");
+        setShowTitle(false);
       }
     };
-    window.addEventListener("scroll", updateNavbarColor);
+
+    window.addEventListener("scroll", updateNavbar);
     return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
+      window.removeEventListener("scroll", updateNavbar);
     };
-  });
+  }, []);
+
   return (
     <>
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
-            <Nav className="mr-auto" navbar>
+          <Nav className="mr-auto" navbar>
+            <NavItem>
+              <Link to="/projects">
+                <NavLink>
+                  <i className="now-ui-icons objects_globe"></i>
+                  <p>Projects</p>
+                </NavLink>
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/about">
+                <NavLink>
+                  <i className="now-ui-icons users_circle-08"></i>
+                  <p>Profile</p>
+                </NavLink>
+              </Link>
+            </NavItem>
+          </Nav>
+          {showTitle && (
+            <Nav className = "ml-auto mr-auto">
               <NavItem>
-                <Link to="/projects">
-                  <NavLink>
-                    <i className="now-ui-icons objects_globe"></i>
-                    <p>Projects</p>
-                  </NavLink>
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link to="/about">
-                  <NavLink>
-                    <i className="now-ui-icons users_circle-08"></i>
-                    <p>Profile</p>
-                  </NavLink>
-                </Link>
+                <div style={{ color: "#fff", textAlign: "center", flex: 1 }}>
+                  <h4>{title}</h4>
+                </div>
               </NavItem>
             </Nav>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink
-                  href="https://www.linkedin.com/in/rushikesh-warde/"
-                  target="_blank"
-                  id="tooltip-linkedin"
-                >
-                  <i className="fab fa-linkedin"></i>
-                  <p>Connect</p>
-                </NavLink>
-                <UncontrolledTooltip target="#tooltip-linkedin">
-                  Connect with me on Linkedin
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.youtube.com/@RW_Soft"
-                  target="_blank"
-                  id="tooltip-youtube"
-                >
-                  <i className="fab fa-youtube"></i>
-                  <p>Subscribe</p>
-                </NavLink>
-                <UncontrolledTooltip target="#tooltip-youtube">
-                  Subscribe to my YouTube Channel
-                </UncontrolledTooltip>
-              </NavItem>
-            </Nav>
+          )}
+          <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink
+                href="https://www.linkedin.com/in/rushikesh-warde/"
+                target="_blank"
+                id="tooltip-linkedin"
+              >
+                <i className="fab fa-linkedin"></i>
+                <p>Connect</p>
+              </NavLink>
+              <UncontrolledTooltip target="#tooltip-linkedin">
+                Connect with me on Linkedin
+              </UncontrolledTooltip>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                href="https://www.youtube.com/@RW_Soft"
+                target="_blank"
+                id="tooltip-youtube"
+              >
+                <i className="fab fa-youtube"></i>
+                <p>Subscribe</p>
+              </NavLink>
+              <UncontrolledTooltip target="#tooltip-youtube">
+                Subscribe to my YouTube Channel
+              </UncontrolledTooltip>
+            </NavItem>
+          </Nav>
         </Container>
       </Navbar>
     </>

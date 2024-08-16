@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Carousel from "views/index-sections/Blog-Carousel.js";
 import VideoEmbed from "views/VideoEmbed.js";
@@ -12,8 +12,7 @@ import {
 import Navbar from "components/Navbars/BlogNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
 import DefaultFooter from "components/Footers/Footer.js";
-
-import LoadingSpinner from 'components/LoadingSpinner.js';
+import LoadingSpinner from "components/LoadingSpinner.js";
 
 function BlogTemplate({ projectData }) {
   const { projectName } = useParams();
@@ -41,7 +40,7 @@ function BlogTemplate({ projectData }) {
 
   return (
     <>
-      <Navbar />
+      <Navbar title={data.title} />
       <div className="wrapper">
         <ProjectsPageHeader title={data.title} />
         <div className="section section-about-us">

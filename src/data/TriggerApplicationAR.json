@@ -4,17 +4,17 @@
     "videoUrl" : "https://www.youtube.com/embed/kgQpcD77mfI?si=9uTp8O0kII4BAX61",
     "carouselItems": [
       {
-        "src": "ta1.jpg",
+        "src": "ta1",
         "altText": "Trigger Application Screenshot 1",
         "caption": "Experience intense battles in a fully immersive environment."
       },
       {
-        "src": "ta2.jpg",
+        "src": "ta2",
         "altText": "Trigger Application Screenshot 2",
         "caption": "Engage with enemies using a variety of weapons."
       },
       {
-        "src": "ta3.jpg",
+        "src": "ta3",
         "altText": "Trigger Application Screenshot 3",
         "caption": "Navigate through complex environments and outsmart opponents."
       }

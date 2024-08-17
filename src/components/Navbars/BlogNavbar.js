@@ -9,7 +9,9 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-function BlogNavbar({ title }) {
+import {icons} from "assets/iconImports.js"
+
+function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
   const [navbarColor, setNavbarColor] = useState("navbar-transparent");
   const [showTitle, setShowTitle] = useState(false);
 
@@ -37,27 +39,25 @@ function BlogNavbar({ title }) {
         <Container>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <Link to="/projects">
+              <Link to={`/${projectCategory}`}>
                 <NavLink>
-                  <i className="now-ui-icons objects_globe"></i>
-                  <p>Projects</p>
+                  <p><img src={icon} style={{ width: "20px", height: "20px" }} /> Projects</p>
                 </NavLink>
               </Link>
             </NavItem>
           </Nav>
           {showTitle && (
             <div
-            style={{
-              position: "absolute",
-              left: "50%",
-              transform: "translateX(-50%)",
-              color: "#fff",
-              textAlign: "center",
-            }}
-          >
-            <h4>{title}</h4>
-          </div>
-
+              style={{
+                position: "absolute",
+                left: "50%",
+                transform: "translateX(-50%)",
+                color: "#fff",
+                textAlign: "center",
+              }}
+            >
+              <h4>{title}</h4>
+            </div>
           )}
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -66,8 +66,8 @@ function BlogNavbar({ title }) {
                 target="_blank"
                 id="tooltip-linkedin"
               >
-                <i className="fab fa-linkedin"></i>
-                <p>Connect</p>
+                <p><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Connect</p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
                 Connect with me on Linkedin
@@ -79,8 +79,8 @@ function BlogNavbar({ title }) {
                 target="_blank"
                 id="tooltip-youtube"
               >
-                <i className="fab fa-youtube"></i>
-                <p>Subscribe</p>
+                <p><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Subscribe</p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">
                 Subscribe to my YouTube Channel

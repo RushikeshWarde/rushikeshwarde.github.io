@@ -83,7 +83,7 @@ function ProfilePage() {
             <Row>
               <Col className="ml-auto mr-auto" md="4" xl="4">
                 <div className="nav-align-center">
-                  <Link to="/vrProjects">
+                  <Link to="/VRProjects">
                     <Button
                     className="btn btn-info btn-lg"
                     size="lg"
@@ -94,7 +94,7 @@ function ProfilePage() {
               </Col>
               <Col className="ml-auto mr-auto" md="4" xl="4">
                 <div className="nav-align-center">
-                  <Link to="/webProjects">
+                  <Link to="/WebProjects">
                     <Button
                     className="btn btn-info btn-lg"
                     size="lg"
@@ -105,7 +105,7 @@ function ProfilePage() {
               </Col>
               <Col className="ml-auto mr-auto" md="4" xl="4">
                 <div className="nav-align-center">
-                  <Link to="/arProjects">
+                  <Link to="/ARProjects">
                     <Button
                     className="btn btn-info btn-lg"
                     size="lg"

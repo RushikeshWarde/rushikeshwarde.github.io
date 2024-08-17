@@ -13,34 +13,47 @@ import Navbar from "components/Navbars/BlogNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
 import DefaultFooter from "components/Footers/Footer.js";
 import LoadingSpinner from "components/LoadingSpinner.js";
+import { icons } from "assets/iconImports.js"; // Import icons
 
-function BlogTemplate({ projectData }) {
+function BlogTemplate({ projectData, projectCategory }) {
   const { projectName } = useParams();
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    const project = projectData.find(proj => proj.link === `/projects/${projectName}`);
+    const project = projectData.find(proj => proj.link === `/${projectCategory}/${projectName}`);
     if (project) {
       import(`data/${project.jsonFile}`)
         .then(module => setData(module.default))
         .catch(err => console.error("Failed to load JSON file:", err));
     }
-  }, [projectName, projectData]);
+  }, [projectName, projectData, projectCategory]);
 
-  // Effect to update the document title
   useEffect(() => {
     if (data) {
-      document.title = data.title;  // Set the document title to the project's title
+      document.title = data.title;
     }
-  }, [data]);  // Only run when 'data' changes
+  }, [data]);
 
   if (!data) {
     return <LoadingSpinner />;
   }
 
+  const getIcon = () => {
+    switch (projectCategory) {
+      case 'VRProjects':
+        return icons["vrProjectIcon"];
+      case 'WebProjects':
+        return icons["webProjectIcon"];
+      case 'ARProjects':
+        return icons["arProjectIcon"];
+      default:
+        return "now-ui-icons objects_globe";
+    }
+  };
+
   return (
     <>
-      <Navbar title={data.title} />
+      <Navbar title={data.title} icon={getIcon()} projectCategory={projectCategory} />
       <div className="wrapper">
         <ProjectsPageHeader title={data.title} />
         <div className="section section-about-us">

@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Trigger Application",
     "image": "ta1",
-    "link": "/arProjects/trigger-application-ar",
+    "link": "/ARProjects/trigger-application-ar",
     "jsonFile": "TriggerApplicationAR.json"
   }
 ]

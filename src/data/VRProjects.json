@@ -3,56 +3,56 @@
     "id": 1,
     "title": "Shooting Game",
     "image": "vsg5",
-    "link": "/vrProjects/shooting-game",
+    "link": "/VRProjects/shooting-game",
     "jsonFile": "ShootingGameVR.json"
   },
   {
     "id": 2,
     "title": "Advanced Architecture Utility",
     "image": "aau1",
-    "link": "/vrProjects/advanced-architecture-utility",
+    "link": "/VRProjects/advanced-architecture-utility",
     "jsonFile": "AdvancedArchitectureUtility.json"
   },
   {
     "id": 3,
     "title": "First Person Shooter",
     "image": "fps1",
-    "link": "/vrProjects/first-person-shooter",
+    "link": "/VRProjects/first-person-shooter",
     "jsonFile": "FirstPersonShooterVR.json"
   },
   {
     "id": 4,
     "title": "Jet Engine Disassembly",
     "image": "jed1",
-    "link": "/vrProjects/jet-engine-disassembly",
+    "link": "/VRProjects/jet-engine-disassembly",
     "jsonFile": "JetEngineDisassembly.json"
   },
   {
     "id": 5,
     "title": "Fantasy Land",
     "image": "fl2",
-    "link": "/vrProjects/fantasy-land",
+    "link": "/VRProjects/fantasy-land",
     "jsonFile": "FantasyLandVR.json"
   },
   {
     "id": 6,
     "title": "Interactive Museum Tour",
     "image": "imt1",
-    "link": "/vrProjects/museum-tour",
+    "link": "/VRProjects/museum-tour",
     "jsonFile": "InteractiveMuseumTourVR.json"
   },
   {
     "id": 7,
     "title": "Interior Design",
     "image": "idv1",
-    "link": "/vrProjects/interior-design",
+    "link": "/VRProjects/interior-design",
     "jsonFile": "InteriorDesignVR.json"
   },
   {
     "id": 8,
     "title": "Reticle Pointer",
     "image": "rp1",
-    "link": "/vrProjects/reticle-pointer",
+    "link": "/VRProjects/reticle-pointer",
     "jsonFile": "ReticlePointerVR.json"
   }
 ]

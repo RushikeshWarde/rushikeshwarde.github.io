@@ -10,6 +10,8 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
+import {icons} from "assets/iconImports.js"
+
 function ProjectsNavbar({title}) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [showTitle, setShowTitle] = useState(false);
@@ -39,8 +41,8 @@ function ProjectsNavbar({title}) {
               <NavItem>
                 <Link to="/about">
                   <NavLink>
-                    <i className="now-ui-icons users_circle-08"></i>
-                    <p>Profile</p>
+                  <p><img src={icons["profileIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                      Profile</p>
                   </NavLink>
                 </Link>
               </NavItem>
@@ -66,8 +68,8 @@ function ProjectsNavbar({title}) {
                   target="_blank"
                   id="tooltip-linkedin"
                 >
-                  <i className="fab fa-linkedin"></i>
-                  <p>Connect</p>
+                  <p><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                  Connect</p>
                 </NavLink>
                 <UncontrolledTooltip target="#tooltip-linkedin">
                   Connect with me on Linkedin
@@ -79,8 +81,8 @@ function ProjectsNavbar({title}) {
                   target="_blank"
                   id="tooltip-youtube"
                 >
-                  <i className="fab fa-youtube"></i>
-                  <p>Subscribe</p>
+                  <p><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                  Subscribe</p>
                 </NavLink>
                 <UncontrolledTooltip target="#tooltip-youtube">
                   Subscribe to my YouTube Channel

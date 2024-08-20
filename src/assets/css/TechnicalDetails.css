@@ -1,0 +1,50 @@
+/* Custom styles for the TechnicalDetails component */
+.technical-details-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .technical-details-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .technical-details-title {
+    font-weight: bold;
+  }
+  
+  .technical-details-body {
+    padding: 1.5rem;
+  }
+  
+  .technical-details-list {
+    padding-left: 1.2rem;
+    list-style: disc;
+  }
+  
+  .technical-details-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .technical-details-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .technical-details-icon {
+    margin-right: 1rem;
+  }
+  
+  .technical-details-col {
+    margin-bottom: 1.5rem;
+  }
+  
+   .technical-details-chevron {
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+  }

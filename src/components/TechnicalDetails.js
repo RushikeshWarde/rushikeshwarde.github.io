@@ -1,7 +1,9 @@
 // TechnicalDetails.js
 import React, { useState } from "react";
-import { Table, Collapse } from "reactstrap";
-import { FaChevronDown, FaChevronRight } from "react-icons/fa";
+import { Card, CardBody, CardTitle, CardText, Collapse, Row, Col } from "reactstrap";
+import { FaBoxes, FaUndo, FaPalette, FaChevronDown, FaChevronRight ,FaDesktop, FaMobileAlt, FaImage, FaPaintBrush, FaTachometerAlt, FaTablet, FaGamepad, FaJoystick, FaClock, FaSync, FaCube, FaSlidersH, FaPaintRoller, FaRobot, FaBrain, FaHandPointer, FaMousePointer, FaVolumeUp, FaHeadphones, FaBook, FaChalkboard, FaGraduationCap, FaBookOpen, FaPlay, FaFilm, FaSearchPlus, FaSearchMinus, FaArrowsAlt, FaRuler, FaFolder, FaFileAlt, FaComment, FaComments, FaMap, FaCompass, FaKeyboard, FaMouse, FaHandRock, FaHands, FaChartLine, FaLayerGroup, FaCogs } from 'react-icons/fa';
+
+import "assets/css/TechnicalDetails.css";
 
 const TechnicalDetails = ({ technicalDetails }) => {
   const [openCategory, setOpenCategory] = useState(null);
@@ -10,49 +12,121 @@ const TechnicalDetails = ({ technicalDetails }) => {
     setOpenCategory(openCategory === index ? null : index);
   };
 
+  const getIcon = (category) => {
+    switch (category) {
+      case "Automatic Positioning":
+        return <FaUndo size={24} className="technical-details-icon" />;
+      case "Visual Aid":
+        return <FaPalette size={24} className="technical-details-icon" />;
+      case "Visual Feedback":
+        return <FaPalette size={24} className="technical-details-icon" />;
+      case "Texture Library":
+        return <FaBoxes size={24} className="technical-details-icon" />;
+      case "Platform":
+        return <FaDesktop size={24} className="technical-details-icon" />;
+      case "Graphics and Rendering":
+        return <FaImage size={24} className="technical-details-icon" />;
+      case "User Interface":
+        return <FaTablet size={24} className="technical-details-icon" />;
+      case "User Interaction":
+        return <FaTablet size={24} className="technical-details-icon" />;
+      case "Control Mechanism":
+        return <FaGamepad size={24} className="technical-details-icon" />;
+      case "Gameplay Mechanics":
+        return <FaGamepad size={24} className="technical-details-icon" />;
+      case "Control Scheme":
+        return <FaKeyboard size={24} className="technical-details-icon" />;
+      case "Real-Time Rendering":
+        return <FaSync size={24} className="technical-details-icon" />;
+      case "3D Model Interaction":
+        return <FaCube size={24} className="technical-details-icon" />;
+      case "Customization Options":
+        return <FaSlidersH size={24} className="technical-details-icon" />;
+      case "AI and Physics":
+        return <FaBrain size={24} className="technical-details-icon" />;
+      case "Interactive Elements":
+        return <FaHandPointer size={24} className="technical-details-icon" />;
+      case "Audio":
+        return <FaVolumeUp size={24} className="technical-details-icon" />;
+      case "Educational Content Delivery":
+        return <FaChalkboard size={24} className="technical-details-icon" />;
+      case "Learning Focus":
+        return <FaGraduationCap size={24} className="technical-details-icon" />;
+      case "Animation Features":
+        return <FaPlay size={24} className="technical-details-icon" />;
+      case "Zoom Capability":
+        return <FaSearchPlus size={24} className="technical-details-icon" />;
+      case "Size Comparison":
+        return <FaArrowsAlt size={24} className="technical-details-icon" />;
+      case "Content Management":
+        return <FaFolder size={24} className="technical-details-icon" />;
+      case "Chat Functionality":
+        return <FaComments size={24} className="technical-details-icon" />;
+      case "Navigation":
+        return <FaCompass size={24} className="technical-details-icon" />;
+      case "Input Devices":
+        return <FaKeyboard size={24} className="technical-details-icon" />;
+      case "Object Interactions":
+        return <FaHands size={24} className="technical-details-icon" />;
+      case "Level of Detail (LOD)":
+        return <FaChartLine size={24} className="technical-details-icon" />;
+      case "Physics and Haptics":
+        return <FaCogs size={24} className="technical-details-icon" />;
+      default:
+        return null;
+    }
+  };
+
   const renderTechnicalDetails = () => {
     return technicalDetails.map((item, index) => {
-      const isExpandable = Array.isArray(item.details) && item.details.length > 1;
+      const detailsArray = Array.isArray(item.details) ? item.details : [item.details];
+      const isExpandable = detailsArray.length >= 1;
+
       return (
-        <React.Fragment key={index}>
-          <tr onClick={() => isExpandable && toggleCategory(index)} style={{ cursor: isExpandable ? "pointer" : "default" }}>
-            <td>
-              <strong>{item.category}</strong>
-            </td>
-            <td>
-              {Array.isArray(item.details) ? item.details[0] : item.details}
-              {isExpandable && (
-                <span style={{ float: "right" }}>
-                  {openCategory === index ? <FaChevronDown /> : <FaChevronRight />}
-                </span>
-              )}
-            </td>
-          </tr>
-          {isExpandable && (
-            <tr>
-              <td colSpan="2">
-                <Collapse isOpen={openCategory === index}>
-                  <ul>
-                    {item.details.slice(1).map((detail, i) => (
-                      <li key={i}>{detail}</li>
-                    ))}
-                  </ul>
-                </Collapse>
-              </td>
-            </tr>
-          )}
-        </React.Fragment>
+        <Col md="6" key={index} className="technical-details-col">
+          <Card className="technical-details-card">
+            <CardBody className="technical-details-body" onClick={() => toggleCategory(index)}>
+              <div className="technical-details-flex">
+                {getIcon(item.category)}
+                <CardTitle tag="h5" className="technical-details-title mb-0">
+                  {item.category}
+                </CardTitle>
+                {isExpandable && (
+                  <span
+                    className="technical-details-chevron"
+                    onClick={(e) => {
+                      e.stopPropagation(); // Prevents the card body click from also toggling
+                      toggleCategory(index);
+                    }}
+                    style={{ float: "right" }}
+                  >
+                    {openCategory === index ? <FaChevronDown /> : <FaChevronRight />}
+                  </span>
+                )}
+              </div>
+              <Collapse isOpen={openCategory === index}>
+                <CardText className="mt-3">
+                  {detailsArray.length === 1 ? (
+                    detailsArray[0]
+                  ) : (
+                    <ul className="technical-details-list">
+                      {detailsArray.map((detail, i) => (
+                        <li key={i} className="technical-details-item">
+                          {detail}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </CardText>
+              </Collapse>
+            </CardBody>
+          </Card>
+        </Col>
       );
     });
   };
 
-  return (
-    <Table bordered>
-      <tbody>
-        {renderTechnicalDetails()}
-      </tbody>
-    </Table>
-  );
+  return <Row>{renderTechnicalDetails()}</Row>;
 };
 
 export default TechnicalDetails;

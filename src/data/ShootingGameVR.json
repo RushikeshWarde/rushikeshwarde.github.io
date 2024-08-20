@@ -57,64 +57,48 @@
     }
   ],
   "TechnicalDetails": [
-    {
-      "category": "Platform",
-      "details": "Meta Quest"
-    },
-    {
-      "category": "Game Engine",
-      "details": "Unity 3D"
-    },
-    {
-      "category": "Development Language",
-      "details": "C#"
-    },
-    {
-      "category": "Physics and Haptics",
-      "details": [
-        "Realistic physics simulation for accurate projectile trajectories and environmental interactions.",
-        "Advanced physics simulations are used for realistic object interactions, such as weapon grabbing and door manipulation.",
-        "Haptic feedback is implemented to provide tactile sensations corresponding to in-game actions."
-      ]
-    },
-    {
-      "category": "Graphics and Performance",
-      "details": [
-        "The game is optimized for smooth performance, with settings adjustments available to enhance the player's experience.",
-        "This includes optimizing the far clipping plane to reduce rendering load.",
-        "Lighting: Real-time lighting with baked shadows and ambient occlusion for enhanced depth and realism."
-      ]
-    },
-    {
-      "category": "Audio",
-      "details": [
-        "Sound Effects: Directional audio cues for enhanced spatial awareness."
-      ]
-    },
-    {
-      "category": "User Interface",
-      "details": [
-        "The game includes an intuitive interface for interacting with various elements like weapons, buttons, and door knobs."
-      ]
-    },
-    {
-      "category": "Input Devices",
-      "details": [
-        "Full support for VR controllers with hand-tracking capabilities for weapon handling and interactions."
-      ]
-    },
-    {
-      "category": "Object Interactions",
-      "details": [
-        "The game features a variety of interactive objects, including weapons, shields, doors, and targets."
-      ]
-    },
-    {
-      "category": "Level of Detail (LOD)",
-      "details": [
-        "Dynamic LOD adjustments to maintain performance without sacrificing visual quality."
-      ]
-    }
-  ],
+      {
+        "category": "Platform",
+        "details": "Meta Quest"
+      },
+      {
+        "category": "Graphics and Rendering",
+        "details": [
+          "Realistic physics simulation for accurate projectile trajectories and environmental interactions.",
+          "Advanced physics simulations are used for realistic object interactions, such as weapon grabbing and door manipulation.",
+          "Haptic feedback is implemented to provide tactile sensations corresponding to in-game actions."
+        ]
+      },
+      {
+        "category": "Audio",
+        "details": [
+          "Directional audio cues for enhanced spatial awareness."
+        ]
+      },
+      {
+        "category": "User Interface",
+        "details": [
+          "The game includes an intuitive interface for interacting with various elements like weapons, buttons, and door knobs."
+        ]
+      },
+      {
+        "category": "Input Devices",
+        "details": [
+          "Full support for VR controllers with hand-tracking capabilities for weapon handling and interactions."
+        ]
+      },
+      {
+        "category": "Object Interactions",
+        "details": [
+          "The game features a variety of interactive objects, including weapons, shields, doors, and targets."
+        ]
+      },
+      {
+        "category": "Level of Detail (LOD)",
+        "details": [
+          "Dynamic LOD adjustments to maintain performance without sacrificing visual quality."
+        ]
+      }
+    ],
   "Conclusion": "Shooting Game VR combines advanced VR mechanics with engaging gameplay elements, offering a comprehensive training experience. Its focus on interaction, realism, and optimization makes it a compelling choice for both casual players and those seeking serious VR training simulations."
 }

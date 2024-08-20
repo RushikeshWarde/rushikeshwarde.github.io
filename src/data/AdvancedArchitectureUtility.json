@@ -63,23 +63,5 @@
       "details": "A wide range of customization options are available, including different textures, colors, and materials for various surfaces and items."
     }
   ],
-  "DemonstrationHighlights": [
-    {
-      "title": "Texture Modification",
-      "description": "The presentation begins by showcasing the process of selecting and applying new textures to an apartment's walls, floors, and ceilings. The real-time rendering feature allows viewers to see the immediate impact of these changes."
-    },
-    {
-      "title": "Furniture Rearrangement",
-      "description": "The video demonstrates how to open cupboards, assess items, and move furniture to optimize space. The importance of careful planning and teamwork is highlighted to ensure efficient and effective space utilization."
-    },
-    {
-      "title": "Interior Design Enhancements",
-      "description": "Changes in the kitchen, such as altering cabinet colors, are shown to illustrate how small modifications can refresh the space. Similarly, adjustments to the sofa and other furniture elements demonstrate how these changes can affect the room's atmosphere and comfort."
-    },
-    {
-      "title": "Lighting Adjustments",
-      "description": "The ability to control lighting, such as closing bedroom blinds, is demonstrated to show how it influences the room's ambiance and privacy."
-    }
-  ],
   "Conclusion": "'Advanced Architecture Utility' provides a comprehensive and flexible toolset for virtual interior design, allowing users to experiment with various design elements and create customized, aesthetically pleasing spaces."
 }

@@ -47,11 +47,11 @@
         "details": "Designed for VR headsets, offering a fully immersive experience."
       },
       {
-        "category": "Graphics and Environment",
+        "category": "Graphics and Rendering",
         "details": "The museum features high-quality graphics and detailed environments, creating a realistic and engaging setting for exploration. The use of the LOD system ensures that graphics are rendered efficiently, balancing detail and performance."
       },
       {
-        "category": "User Interface and Controls",
+        "category": "User Interface",
         "details": "The VR museum includes a clear and intuitive user interface, with controls optimized for VR. Users interact with the environment using hand controllers, which allow for smooth navigation and interaction with 3D models and other content."
       },
       {

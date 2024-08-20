@@ -59,12 +59,8 @@
         "details": "Allows for closer inspection of animal models."
       },
       {
-        "category": "Size Comparison",
-        "details": "Visual representation of size differences between various animals."
-      },
-      {
-        "category": "Target Devices",
-        "details": "Compatible with AR-capable devices, offering an interactive and immersive experience."
+        "category": "Educational Content Delivery",
+        "details": "Provides educational information about each animal, enhancing the learning experience."
       }
     ],
     "Conclusion": "'Trigger Application AR' is designed to be both educational and entertaining, making it ideal for users interested in exploring animal behavior in an interactive, augmented reality environment."

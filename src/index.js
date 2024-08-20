@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.5.0";
-import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
+//import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
 
 import Tabs from "views/index-sections/Tabs.js";
 import ProfilePage from "views/ProfilePage.js";
@@ -18,9 +18,6 @@ import BlogTemplate from "views/blogposts/BlogTemplate.js";
 import VRProjectData from "data/VRProjects.json";
 import WebProjectData from "data/WebProjects.json";
 import ARProjectData from "data/ARProjects.json";
-
-import { icons } from "assets/iconImports.js";
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

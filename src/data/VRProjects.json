@@ -15,31 +15,31 @@
   },
   {
     "id": 3,
-    "title": "First Person Shooter",
-    "image": "fps1",
-    "link": "/VRProjects/first-person-shooter",
-    "jsonFile": "FirstPersonShooterVR.json"
-  },
-  {
-    "id": 4,
-    "title": "Jet Engine Disassembly",
-    "image": "jed1",
-    "link": "/VRProjects/jet-engine-disassembly",
-    "jsonFile": "JetEngineDisassembly.json"
-  },
-  {
-    "id": 5,
     "title": "Fantasy Land",
     "image": "fl2",
     "link": "/VRProjects/fantasy-land",
     "jsonFile": "FantasyLandVR.json"
   },
   {
-    "id": 6,
+    "id": 4,
+    "title": "First Person Shooter",
+    "image": "fps1",
+    "link": "/VRProjects/first-person-shooter",
+    "jsonFile": "FirstPersonShooterVR.json"
+  },
+  {
+    "id": 5,
     "title": "Interactive Museum Tour",
     "image": "imt1",
     "link": "/VRProjects/museum-tour",
     "jsonFile": "InteractiveMuseumTourVR.json"
+  },
+  {
+    "id": 6,
+    "title": "Jet Engine Disassembly",
+    "image": "jed1",
+    "link": "/VRProjects/jet-engine-disassembly",
+    "jsonFile": "JetEngineDisassembly.json"
   },
   {
     "id": 7,

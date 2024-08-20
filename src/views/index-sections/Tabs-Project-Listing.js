@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardBody, NavItem, NavLink, Nav, TabContent, TabPane, Container, Row, Col } from "reactstrap";
 import { images } from "assets/imageImports.js";
+import "assets/css/background-image.css";
 
 function Tabs({ projectData }) {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -36,7 +37,7 @@ function Tabs({ projectData }) {
                       <TabPane tabId="1">
                         <img
                           alt="..."
-                          className="img-raised"
+                          className="first-tab"
                           src={images[projectData[0].image]}
                         />
                       </TabPane>
@@ -75,7 +76,7 @@ function Tabs({ projectData }) {
                           <TabPane tabId={(index + 2).toString()}>
                             <img
                               alt="..."
-                              className="img-raised"
+                              className="other-tab"
                               src={images[project.image]}
                             />
                           </TabPane>

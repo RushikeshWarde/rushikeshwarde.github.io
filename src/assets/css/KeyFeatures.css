@@ -1,6 +1,6 @@
 .key-features-scroll-container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
   white-space: nowrap;
   padding: 10px 0;
   scroll-behavior: smooth; /* Smooth scroll for user experience */

@@ -41,7 +41,7 @@ function ProjectsNavbar({title}) {
               <NavItem>
                 <Link to="/about">
                   <NavLink>
-                  <p><img src={icons["profileIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                  <p><img src={icons["profileIcon"]} style={{ width: "25px", height: "25px", marginRight: "8px" }} />
                       Profile</p>
                   </NavLink>
                 </Link>

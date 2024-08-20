@@ -63,9 +63,7 @@ function ProjectsListingPage() {
                 </h5>
               </Col>
             </Row>
-            <Row>
-              <Tabs projectData={projectData} />
-            </Row>
+            <Tabs projectData={projectData} />
           </Container>
         </div>
         <DefaultFooter />

@@ -8,3 +8,15 @@
     background-attachment: scroll;
     z-index: -1;
 } */
+
+.first-tab {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    width: 500px !important;
+    height: 333px !important;
+}
+
+.other-tab {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    width: 309.9px !important;
+    height: 206.6px !important;
+}

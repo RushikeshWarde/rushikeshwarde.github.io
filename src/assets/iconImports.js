@@ -6,7 +6,7 @@ import arProjectIcon from "assets/img/icons/augmented-reality.png";
 import linkedinIcon from "assets/img/icons/linkedin.png"
 import youtubeIcon from "assets/img/icons/youtube.png"
 
-import profileIcon from "assets/img/icons/user.png"
+import profileIcon from "assets/img/icons/man.png"
 
 
 export const icons = {

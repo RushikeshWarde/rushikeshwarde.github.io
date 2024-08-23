@@ -6,7 +6,48 @@
     "aboutTitle": "About me",
     "aboutDescription": "As a creative VR Developer, I am dedicated to crafting immersive and innovative virtual experiences. With a deep passion for technology and storytelling, I specialize in blending cutting-edge VR technologies with engaging game mechanics. My work focuses on pushing the limits of what's possible in virtual reality, exploring new dimensions of interaction, and creating experiences that captivate and inspire. Dive into my projects and join me on this exciting journey through the virtual realm!",
     "portfolioTitle": "My Portfolio",
-    "portfolioImages": ["vsg-5.png", "aau-4.png", "fl-4.png","imt-8.png","fps-3.png","idv-4.png","jed-4.png","mg-3.png","rp-1.png","ta-2.png"],
+    "portfolioImages": [
+    {
+      "image": "vsg-5.png",
+      "caption": "Shooting Game"
+    },
+    {
+      "image": "aau-4.png",
+      "caption": "Advanced Architecture Utility"
+    },
+    {
+      "image": "fl-4.png",
+      "caption": "Fantasy Land"
+    },
+    {
+      "image": "imt-8.png",
+      "caption": "Interactive Museum Tour"
+    },
+    {
+      "image": "fps-3.png",
+      "caption": "First Person Shooter"
+    },
+    {
+      "image": "idv-4.png",
+      "caption": "Interior Design"
+    },
+    {
+      "image": "jed-4.png",
+      "caption": "Jet Engine Disassembly"
+    },
+    {
+      "image": "mg-3.png",
+      "caption": "Multiplayer Game"
+    },
+    {
+      "image": "rp-1.png",
+      "caption": "Reticle Pointer"
+    },
+    {
+      "image": "ta-2.png",
+      "caption": "Trigger Application"
+    }
+  ],
     "projectButtons": [
       {
         "title": "VR Projects",

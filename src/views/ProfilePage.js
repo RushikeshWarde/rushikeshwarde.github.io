@@ -12,7 +12,10 @@ import Navbar from "components/Navbars/ProfileNavbar";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DefaultFooter from "components/Footers/Footer.js";
 import { icons } from "assets/iconImports.js";
-import profileData from "data/profileData.json"; // Adjust the path according to your structure
+
+import profileData from "data/profileData.json";
+
+import "assets/css/background-image.css";
 
 function ProfilePage() {
   const [data, setData] = useState(null);
@@ -54,13 +57,18 @@ function ProfilePage() {
               <TabContent className="gallery">
                 <TabPane>
                   <Col className="ml-auto mr-auto" md="10">
-                    <Row className="collections">
-                      {data.portfolioImages.map((image, index) => (
-                        <Col md="6" key={index}>
-                          <img alt="..." className="img-raised first-tab" src={require(`assets/img/portfolio/${image}`)} ></img>
-                        </Col>
-                      ))}
-                    </Row>
+                  <Row className="collections">
+                    {data.portfolioImages.map((item, index) => (
+                      <Col md="6" key={index} className="text-center">
+                        <img
+                          alt={item.caption}
+                          className="img-raised first-tab"
+                          src={require(`assets/img/portfolio/${item.image}`)}
+                        ></img>
+                        <p className="carousel-caption d-none d-md-block"><strong style={{color: "#061d5d"}}>{item.caption}</strong></p>
+                      </Col>
+                    ))}
+                  </Row>
                   </Col>
                 </TabPane>
               </TabContent>

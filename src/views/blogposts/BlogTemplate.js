@@ -50,12 +50,24 @@ function BlogTemplate({ projectData, projectCategory }) {
         return "now-ui-icons objects_globe";
     }
   };
+  const getHeaderImage = () => {
+    switch (projectCategory) {
+      case 'VRProjects':
+        return require("assets/img/bg-vr.jpg");
+      case 'WebProjects':
+        return require("assets/img/bg-web.jpg");
+      case 'ARProjects':
+        return require("assets/img/bg-ar.jpg");
+      default:
+        return require("assets/img/bg-vr.jpg");
+    }
+  };
 
   return (
     <>
       <Navbar title={data.title} icon={getIcon()} projectCategory={projectCategory} />
       <div className="wrapper">
-        <ProjectsPageHeader title={data.title} />
+        <ProjectsPageHeader title={data.title} headerImage={getHeaderImage()} />
         <div className="section section-about-us">
           <Container>
             <Row>

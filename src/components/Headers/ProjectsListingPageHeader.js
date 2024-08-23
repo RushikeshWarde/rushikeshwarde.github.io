@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-function ProjectsPageHeader({ title, headerImage }) {
+function ProjectsListingPageHeader({ title, headerImage }) {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -42,4 +42,4 @@ function ProjectsPageHeader({ title, headerImage }) {
   );
 }
 
-export default ProjectsPageHeader;
+export default ProjectsListingPageHeader;

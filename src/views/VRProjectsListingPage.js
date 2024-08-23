@@ -7,7 +7,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 import Navbar from "components/Navbars/ProjectsNavbar.js";
-import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
+import ProjectsPageHeader from "components/Headers/ProjectsListingPageHeader.js";
 import DefaultFooter from "components/Footers/Footer.js";
 
 function ProjectsListingPage() {
@@ -31,7 +31,7 @@ function ProjectsListingPage() {
     <>
       <Navbar title={title}/>
       <div className="wrapper">
-        <ProjectsPageHeader title={title} />
+        <ProjectsPageHeader title={title} headerImage = {require("assets/img/bg-vr.jpg")} />
         <div className="section section-about-us">
           <Container>
             <Row>

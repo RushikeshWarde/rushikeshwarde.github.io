@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcaf97ec.css",
-    "main.js": "/static/js/main.686c436e.js",
+    "main.css": "/static/css/main.dd00466d.css",
+    "main.js": "/static/js/main.ea8f8a69.js",
     "static/js/325.db98a9a9.chunk.js": "/static/js/325.db98a9a9.chunk.js",
     "static/js/633.ffd6c93e.chunk.js": "/static/js/633.ffd6c93e.chunk.js",
     "static/js/651.1d665c36.chunk.js": "/static/js/651.1d665c36.chunk.js",
@@ -98,11 +98,11 @@
     "static/media/nucleo-outline.woff2": "/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "static/media/vr-glasses.png": "/static/media/vr-glasses.3bbcdeae3aa924eab47c.png",
     "index.html": "/index.html",
-    "main.bcaf97ec.css.map": "/static/css/main.bcaf97ec.css.map",
-    "main.686c436e.js.map": "/static/js/main.686c436e.js.map"
+    "main.dd00466d.css.map": "/static/css/main.dd00466d.css.map",
+    "main.ea8f8a69.js.map": "/static/js/main.ea8f8a69.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcaf97ec.css",
-    "static/js/main.686c436e.js"
+    "static/css/main.dd00466d.css",
+    "static/js/main.ea8f8a69.js"
   ]
 }

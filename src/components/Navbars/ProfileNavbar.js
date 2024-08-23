@@ -39,7 +39,7 @@ function ProfileNavbar({ title }) {
         <Container>
           {showTitle && (
             <div style={{ position: "absolute", left: "50%", transform: "translateX(-50%)" }}>
-              <h4 style={{ color: "#fff", margin: 0 }}>{title}</h4>
+              <h4 style={{ color: "#fff", margin: 0 }}><strong>{title}</strong></h4>
             </div>
           )}
           <Nav className="ml-auto" navbar>

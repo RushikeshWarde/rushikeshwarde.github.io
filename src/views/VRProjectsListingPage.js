@@ -47,7 +47,7 @@ function ProjectsListingPage() {
                   </p>
                 </h5>
                 <br /><br />
-                <h3> Featured Projects </h3>
+                <h3> <strong>Featured Projects</strong> </h3>
                 <h5>
                   <p>
                     Dive into detailed descriptions, view stunning visuals, and watch demonstration videos of each project. 

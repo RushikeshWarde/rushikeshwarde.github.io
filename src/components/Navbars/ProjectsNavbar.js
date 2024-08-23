@@ -57,7 +57,7 @@ function ProjectsNavbar({title}) {
               textAlign: "center",
             }}
           >
-            <h4>{title}</h4>
+            <h4><strong>{title}</strong></h4>
           </div>
 
           )}

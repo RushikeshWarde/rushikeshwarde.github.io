@@ -56,7 +56,7 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                 textAlign: "center",
               }}
             >
-              <h4>{title}</h4>
+              <h4><strong>{title}</strong></h4>
             </div>
           )}
           <Nav className="ml-auto" navbar>

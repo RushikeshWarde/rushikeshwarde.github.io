@@ -6,17 +6,22 @@
       {
         "src": "ta1",
         "altText": "Trigger Application Screenshot 1",
-        "caption": "Experience intense battles in a fully immersive environment."
+        "caption": "A Bear Running."
       },
       {
         "src": "ta2",
         "altText": "Trigger Application Screenshot 2",
-        "caption": "Engage with enemies using a variety of weapons."
+        "caption": "An Attacking Lion."
       },
       {
         "src": "ta3",
         "altText": "Trigger Application Screenshot 3",
-        "caption": "Navigate through complex environments and outsmart opponents."
+        "caption": "A Walking Giraffe."
+      },
+      {
+        "src": "ta4",
+        "altText": "Trigger Application Screenshot 4",
+        "caption": "A Flying Bee."
       }
     ],
     "KeyFeatures": [

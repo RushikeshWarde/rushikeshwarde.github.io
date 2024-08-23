@@ -6,22 +6,22 @@
     {
       "src": "mg1",
       "altText": "Multiplayer Game Screenshot 1",
-      "caption": "Experience intense battles in a fully immersive environment."
+      "caption": "Main Menu."
     },
     {
       "src": "mg2",
       "altText": "Multiplayer Game Screenshot 2",
-      "caption": "Engage with enemies using a variety of weapons."
+      "caption": "Multiple players connected in a same room."
     },
     {
       "src": "mg3",
       "altText": "Multiplayer Game Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Online Chat Feature."
     },
     {
       "src": "mg4",
       "altText": "Multiplayer Game Screenshot 4",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Animation synched across all players in the same room."
     }
   ],
   "KeyFeatures": [

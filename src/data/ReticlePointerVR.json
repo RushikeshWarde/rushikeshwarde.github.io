@@ -6,17 +6,47 @@
     {
       "src": "rp1",
       "altText": "Reticle Pointer Screenshot 1",
-      "caption": "Experience intense battles in a fully immersive environment."
+      "caption": "Statue of Moses."
     },
     {
       "src": "rp2",
       "altText": "Reticle Pointer Screenshot 2",
-      "caption": "Engage with enemies using a variety of weapons."
+      "caption": "Ehrengrab Johannes Bank Memorial."
     },
     {
       "src": "rp3",
       "altText": "Reticle Pointer Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Queen Nefertiti."
+    },
+    {
+      "src": "rp4",
+      "altText": "Reticle Pointer Screenshot 4",
+      "caption": "Ancient Mayan Jade tiles."
+    },
+    {
+      "src": "rp5",
+      "altText": "Reticle Pointer Screenshot 5",
+      "caption": "The Aztec Sun Calendar."
+    },
+    {
+      "src": "rp6",
+      "altText": "Reticle Pointer Screenshot 6",
+      "caption": "The Cradle."
+    },
+    {
+      "src": "rp7",
+      "altText": "Reticle Pointer Screenshot 7",
+      "caption": "The Doctor's Visit stone relief."
+    },
+    {
+      "src": "rp8",
+      "altText": "Reticle Pointer Screenshot 8",
+      "caption": "Hunting Lions with King Ashurnasirpal II."
+    },
+    {
+      "src": "rp9",
+      "altText": "Reticle Pointer Screenshot 9",
+      "caption": "Daoist Immortal He Xiangu."
     }
   ],
   "KeyFeatures": [

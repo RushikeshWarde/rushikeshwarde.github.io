@@ -6,17 +6,27 @@
     {
       "src": "aau1",
       "altText": "Advanced Architecture Utility Screenshot 1",
-      "caption": "Experience intense battles in a fully immersive environment."
+      "caption": "Hall View."
     },
     {
       "src": "aau2",
       "altText": "Advanced Architecture Utility Screenshot 2",
-      "caption": "Engage with enemies using a variety of weapons."
+      "caption": "Hall View with changed textures."
     },
     {
       "src": "aau3",
       "altText": "Advanced Architecture Utility Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Bedroom View."
+    },
+    {
+      "src": "aau4",
+      "altText": "Advanced Architecture Utility Screenshot 4",
+      "caption": "Bedroom View with textures changed."
+    },
+    {
+      "src": "aau5",
+      "altText": "Advanced Architecture Utility Screenshot 5",
+      "caption": "Interactable Books."
     }
   ],
   "KeyFeatures": [

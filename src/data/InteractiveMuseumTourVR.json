@@ -6,17 +6,42 @@
       {
         "src": "imt1",
         "altText": "Interactive Museum Tour Screenshot 1",
-        "caption": "Experience intense battles in a fully immersive environment."
+        "caption": "Welcome to Planetary Museum."
       },
       {
         "src": "imt2",
         "altText": "Interactive Museum Tour Screenshot 2",
-        "caption": "Engage with enemies using a variety of weapons."
+        "caption": "Museum view of the Model of the Sun with Neptune on the left and Mercury on the right."
       },
       {
         "src": "imt3",
         "altText": "Interactive Museum Tour Screenshot 3",
-        "caption": "Navigate through complex environments and outsmart opponents."
+        "caption": "Museum view of the Models of Jupiter and Mars."
+      },
+      {
+        "src": "imt4",
+        "altText": "Interactive Museum Tour Screenshot 4",
+        "caption": "Museum view of the Model of Neptune with the controller pointing at it."
+      },
+      {
+        "src": "imt5",
+        "altText": "Interactive Museum Tour Screenshot 5",
+        "caption": "A view of the Solar System with the spaceship next to the Sun."
+      },
+      {
+        "src": "imt6",
+        "altText": "Interactive Museum Tour Screenshot 6",
+        "caption": "A view of the Earth from the Spaceship."
+      },
+      {
+        "src": "imt7",
+        "altText": "Interactive Museum Tour Screenshot 7",
+        "caption": "A view of Saturn with Jupiter on the upper-left, Neptune on the upper-right and Uranus on the lower-right from the Spaceship."
+      },
+      {
+        "src": "imt8",
+        "altText": "Interactive Museum Tour Screenshot 8",
+        "caption": "A full-viewof the Spaceship looking at the Sun."
       }
     ],
     "KeyFeatures": [

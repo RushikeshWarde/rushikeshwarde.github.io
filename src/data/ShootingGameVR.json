@@ -6,32 +6,27 @@
     {
       "src": "vsg1",
       "altText": "VR Shooting Game Screenshot 1",
-      "caption": "Experience intense battles in a fully immersive environment."
+      "caption": "Main Menu with the objectives displayed."
     },
     {
       "src": "vsg2",
       "altText": "VR Shooting Game Screenshot 2",
-      "caption": "Engage with enemies using a variety of weapons."
+      "caption": "Walking towards dummies with Shield and Rifle in hand."
     },
     {
       "src": "vsg3",
       "altText": "VR Shooting Game Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
-    },
-    {
-      "src": "vsg4",
-      "altText": "VR Shooting Game Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Dual wielding pistols."
     },
     {
       "src": "vsg5",
       "altText": "VR Shooting Game Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "Shooting Bullets."
     },
     {
       "src": "vsg6",
       "altText": "VR Shooting Game Screenshot 3",
-      "caption": "Navigate through complex environments and outsmart opponents."
+      "caption": "A Scenic view."
     }
   ],
   "KeyFeatures": [

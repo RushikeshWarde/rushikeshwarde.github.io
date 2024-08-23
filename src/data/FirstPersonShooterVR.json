@@ -6,17 +6,27 @@
       {
         "src": "fps1",
         "altText": "First Person Shooter Screenshot 1",
-        "caption": "Experience intense battles in a fully immersive environment."
+        "caption": "The Main Menu of the game."
       },
       {
         "src": "fps2",
         "altText": "First Person Shooter Screenshot 2",
-        "caption": "Engage with enemies using a variety of weapons."
+        "caption": "Enemy drone shooting bullets."
       },
       {
         "src": "fps3",
         "altText": "First Person Shooter Screenshot 3",
-        "caption": "Navigate through complex environments and outsmart opponents."
+        "caption": "Multiple enemies engaging the player."
+      },
+      {
+        "src": "fps4",
+        "altText": "First Person Shooter Screenshot 2",
+        "caption": "A Blaster with the highscore and health displayed."
+      },
+      {
+        "src": "fps5",
+        "altText": "First Person Shooter Screenshot 3",
+        "caption": "Healthpack dropped occasionally by opponents."
       }
     ],
     "KeyFeatures": [

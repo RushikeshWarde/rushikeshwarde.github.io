@@ -4,19 +4,29 @@
     "videoUrl" : "https://www.youtube.com/embed/bVi4-JYj9_E?si=IWcI1aMy72_Dhu2C",
     "carouselItems": [
       {
-        "src": "id1",
+        "src": "idv1",
         "altText": "Interior Design Screenshot 1",
-        "caption": "Experience intense battles in a fully immersive environment."
+        "caption": "Texture Menu with no changes."
       },
       {
-        "src": "id2",
+        "src": "idv2",
         "altText": "Interior Design Screenshot 2",
-        "caption": "Engage with enemies using a variety of weapons."
+        "caption": "Texture Menu with Floor texture changed."
       },
       {
-        "src": "id3",
+        "src": "idv3",
         "altText": "Interior Design Screenshot 3",
-        "caption": "Navigate through complex environments and outsmart opponents."
+        "caption": "Texture Menu with Roof texture changed."
+      },
+      {
+        "src": "idv4",
+        "altText": "Interior Design Screenshot 4",
+        "caption": "Sofa with its texture changed."
+      },
+      {
+        "src": "idv5",
+        "altText": "Interior Design Screenshot 5",
+        "caption": "Full view with all the textures changed."
       }
     ],
     "KeyFeatures": [

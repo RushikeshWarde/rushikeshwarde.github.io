@@ -4,19 +4,24 @@
     "videoUrl" : "https://www.youtube.com/embed/FJRd0YrFlds?si=Djax6o-ATWiZ32Si",
     "carouselItems": [
       {
-        "src": "jed1",
-        "altText": "Jet Engine Disassembly Screenshot 1",
-        "caption": "Experience intense battles in a fully immersive environment."
-      },
-      {
-        "src": "jed2",
-        "altText": "Jet Engine Disassembly Screenshot 2",
-        "caption": "Engage with enemies using a variety of weapons."
+        "src": "jed4",
+        "altText": "Jet Engine Disassembly Screenshot 4",
+        "caption": "Fully Disassembled Jet Engine."
       },
       {
         "src": "jed3",
         "altText": "Jet Engine Disassembly Screenshot 3",
-        "caption": "Navigate through complex environments and outsmart opponents."
+        "caption": "Bringing the part closer to the jet Engine will automatically put it in place."
+      },
+      {
+        "src": "jed2",
+        "altText": "Jet Engine Disassembly Screenshot 2",
+        "caption": "Holding the button while pointing at it can disassemble it."
+      },
+      {
+        "src": "jed1",
+        "altText": "Jet Engine Disassembly Screenshot 1",
+        "caption": "Fully Assembled Jet Engine."
       }
     ],
     "KeyFeatures": [

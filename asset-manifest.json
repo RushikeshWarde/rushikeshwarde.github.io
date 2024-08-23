@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd00466d.css",
-    "main.js": "/static/js/main.ea8f8a69.js",
+    "main.js": "/static/js/main.d7e95c58.js",
     "static/js/325.db98a9a9.chunk.js": "/static/js/325.db98a9a9.chunk.js",
     "static/js/633.ffd6c93e.chunk.js": "/static/js/633.ffd6c93e.chunk.js",
     "static/js/651.1d665c36.chunk.js": "/static/js/651.1d665c36.chunk.js",
@@ -99,10 +99,10 @@
     "static/media/vr-glasses.png": "/static/media/vr-glasses.3bbcdeae3aa924eab47c.png",
     "index.html": "/index.html",
     "main.dd00466d.css.map": "/static/css/main.dd00466d.css.map",
-    "main.ea8f8a69.js.map": "/static/js/main.ea8f8a69.js.map"
+    "main.d7e95c58.js.map": "/static/js/main.d7e95c58.js.map"
   },
   "entrypoints": [
     "static/css/main.dd00466d.css",
-    "static/js/main.ea8f8a69.js"
+    "static/js/main.d7e95c58.js"
   ]
 }

@@ -1,0 +1,47 @@
+/* .custom-background-image{
+    width: 100%;
+    height: auto;
+    position: static;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    z-index: -1;
+} */
+
+.first-tab {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    width: 500px !important;
+    height: 333px !important;
+}
+
+.other-tab {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    width: 309.9px !important;
+    height: 206.6px !important;
+}
+
+.project-button {
+    transition: transform 0.3s ease;
+}
+  
+.project-button:hover {
+    transform: scale(1.1);
+}
+
+.carousel-caption-profile {
+    position: absolute;
+    right: 15%;
+    bottom: 40px;
+    left: 15%;
+    z-index: 10;
+    text-align: center;
+}
+  
+.caption-text-profile {
+    display: inline-block; /* Ensures the background wraps tightly around the text */
+    color: #32ff00; /* Your desired text color */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 1px 5px; /* Smaller padding for a tighter fit */
+    border-radius: 5px; /* Slightly smaller rounded corners */
+}

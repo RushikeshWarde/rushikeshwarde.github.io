@@ -15,7 +15,7 @@ import { icons } from "assets/iconImports.js";
 
 import profileData from "data/profileData.json";
 
-import "assets/css/background-image.css";
+import "assets/css/custom-components.css";
 
 function ProfilePage() {
   const [data, setData] = useState(null);
@@ -65,7 +65,7 @@ function ProfilePage() {
                           className="img-raised first-tab"
                           src={require(`assets/img/portfolio/${item.image}`)}
                         ></img>
-                        <p className="carousel-caption d-none d-md-block"><strong style={{color: "#061d5d"}}>{item.caption}</strong></p>
+                        <p className="carousel-caption-profile d-none d-md-block"><strong class="caption-text-profile">{item.caption}</strong></p>
                       </Col>
                     ))}
                   </Row>
@@ -78,7 +78,7 @@ function ProfilePage() {
                 <Col className="ml-auto mr-auto" md="4" xl="4" key={index}>
                   <div className="nav-align-center">
                     <Link to={project.link}>
-                      <Button className="btn btn-info btn-lg" size="lg">
+                      <Button className="btn btn-info btn-lg project-button" size="lg">
                         <p>
                           <img
                             src={icons[project.icon]}

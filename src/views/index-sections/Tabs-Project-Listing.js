@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardBody, NavItem, NavLink, Nav, TabContent, TabPane, Container, Row, Col } from "reactstrap";
 import { images } from "assets/imageImports.js";
-import "assets/css/background-image.css";
+import "assets/css/custom-components.css";
 
 function Tabs({ projectData }) {
   const [activeTab, setActiveTab] = React.useState("1");

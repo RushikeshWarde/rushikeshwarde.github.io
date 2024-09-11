@@ -50,14 +50,14 @@
   ],
     "projectButtons": [
       {
-        "title": "VR Projects",
-        "link": "/VRProjects",
-        "icon": "vrProjectIcon"
-      },
-      {
         "title": "Web Projects",
         "link": "/WebProjects",
         "icon": "webProjectIcon"
+      },
+      {
+        "title": "VR Projects",
+        "link": "/VRProjects",
+        "icon": "vrProjectIcon"
       },
       {
         "title": "AR Projects",

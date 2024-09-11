@@ -64,7 +64,7 @@ function CarouselSection({items}) {
                     >
                       <img src={images[item.src]} alt={item.altText} />
                       <div className="carousel-caption d-none d-md-block">
-                        <h5>{item.caption}</h5>
+                        <h5 class = "caption-text-profile">{item.caption}</h5>
                       </div>
                     </CarouselItem>
                   );

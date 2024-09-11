@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd00466d.css",
-    "main.js": "/static/js/main.5b2d6b39.js",
+    "main.css": "/static/css/main.cf2e0b04.css",
+    "main.js": "/static/js/main.94c6cc6e.js",
     "static/js/325.db98a9a9.chunk.js": "/static/js/325.db98a9a9.chunk.js",
-    "static/js/633.ffd6c93e.chunk.js": "/static/js/633.ffd6c93e.chunk.js",
+    "static/js/633.f83a3544.chunk.js": "/static/js/633.f83a3544.chunk.js",
     "static/js/651.1d665c36.chunk.js": "/static/js/651.1d665c36.chunk.js",
     "static/js/180.7ebdbe7c.chunk.js": "/static/js/180.7ebdbe7c.chunk.js",
     "static/js/596.47f30544.chunk.js": "/static/js/596.47f30544.chunk.js",
@@ -152,11 +152,11 @@
     "static/media/nucleo-outline.woff2": "/static/media/nucleo-outline.802141dd0dcc63b21cbb.woff2",
     "static/media/vr-glasses.png": "/static/media/vr-glasses.3bbcdeae3aa924eab47c.png",
     "index.html": "/index.html",
-    "main.dd00466d.css.map": "/static/css/main.dd00466d.css.map",
-    "main.5b2d6b39.js.map": "/static/js/main.5b2d6b39.js.map"
+    "main.cf2e0b04.css.map": "/static/css/main.cf2e0b04.css.map",
+    "main.94c6cc6e.js.map": "/static/js/main.94c6cc6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd00466d.css",
-    "static/js/main.5b2d6b39.js"
+    "static/css/main.cf2e0b04.css",
+    "static/js/main.94c6cc6e.js"
   ]
 }

@@ -8,43 +8,43 @@
     "portfolioTitle": "My Portfolio",
     "portfolioImages": [
     {
-      "image": "vsg-5.png",
+      "image": "vsg-5.jpg",
       "caption": "Shooting Game"
     },
     {
-      "image": "aau-4.png",
+      "image": "aau-4.jpg",
       "caption": "Advanced Architecture Utility"
     },
     {
-      "image": "fl-4.png",
+      "image": "fl-4.jpg",
       "caption": "Fantasy Land"
     },
     {
-      "image": "imt-8.png",
+      "image": "imt-8.jpg",
       "caption": "Interactive Museum Tour"
     },
     {
-      "image": "fps-3.png",
+      "image": "fps-3.jpg",
       "caption": "First Person Shooter"
     },
     {
-      "image": "idv-4.png",
+      "image": "idv-4.jpg",
       "caption": "Interior Design"
     },
     {
-      "image": "jed-4.png",
+      "image": "jed-4.jpg",
       "caption": "Jet Engine Disassembly"
     },
     {
-      "image": "mg-3.png",
+      "image": "mg-3.jpg",
       "caption": "Multiplayer Game"
     },
     {
-      "image": "rp-1.png",
+      "image": "rp-1.jpg",
       "caption": "Reticle Pointer"
     },
     {
-      "image": "ta-2.png",
+      "image": "ta-2.jpg",
       "caption": "Trigger Application"
     }
   ],

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<title>ImageOptim online</title>
+<style>
+label {font-weight: bold}
+.color {color: #906;}
+.hdpi label {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 200; color: #444;}
+.format label {font-weight: normal; font-size: 0.8em}
+html {
+    background: #ccc;
+    color: #000;
+    font: 0.9em/1.5 Helvetica,Arial,sans-serif;
+    margin:0;
+    padding:0;
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    width: 70%;
+    top: 15%;
+    position: absolute;
+    left: 15%;
+    height: 70%;
+    margin: 0; padding: 0;
+    background-color: #eee;
+    border-radius: 4px;
+}
+h1 {
+    margin: 0 0 1em;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.15), 1px 1px 1px white;
+}
+body > form {
+    position: absolute;
+    top:0; left:0; right: 0; bottom: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor: pointer;
+    overflow: auto;
+}
+hr {
+    border: 0; border-top: 1px solid #ddd;
+}
+</style>
+<script>
+function disableSubmit(form) {
+    setTimeout(function(){form.elements.s.disabled=true},1);
+    setTimeout(function(){form.elements.s.disabled=false},3000);
+}
+</script>
+<body>
+<form method="post" enctype="multipart/form-data"
+    onsubmit="disableSubmit(this)"
+    onclick="if (event.target.tagName != 'INPUT' &amp;&amp; event.target.tagName != 'LABEL' &amp;&amp; event.target.tagName != 'A') this.elements.file.click()">
+<h1>JPEG and PNG compressors with special secret artisan-crafted settings</h1>
+<p><label>Quality: <input name="quality" value="low" type="radio"> Low (smallest file)</label>
+<label><input name="quality" value="medium" checked type="radio"> Medium</label>
+<label><input name="quality" value="high" type="radio"> High (largest file)</label>
+</p>
+<p class="hdpi"><label><input name="highdpi" type="checkbox"> High DPI mode (assume pixels are smaller or image is going to be scaled down)</label></p>
+<p class="color"><label>Color quality: <input name="chroma_quality" value="low" type="radio"> Messy</label>
+<label><input name="chroma_quality" value="auto" checked type="radio"> Auto</label>
+<label><input name="chroma_quality" value="high" type="radio"> Sharp (larger file)</label>
+</p>
+<p class="format"><label>Format: <input name="format" value="jpeg" type="radio"> JPEG</label> <label><input name="format" value="png" checked type="radio"> PNG</label> <label><input name="format" value="" checked type="radio"> <abbr title="dunno">¯\_(ツ)_/¯</abbr></label></p>
+<p>Click to select files (24-bit PNG or very-high-quality JPEG)</p>
+<input type="file" name="file" accept="image/*" multiple onchange="this.form.submit();disableSubmit(this.form)" />
+<input type="submit" name="s">
+<p>Once submitted files will download automatically. Multiple files are supported.</p>
+<hr>
+<p>Hacked together by <a href="https://kornel.ski">Kornel</a> (<a href="https://twitter.com/kornelski">@kornelski</a>). <a href="https://imageoptim.com/donate.html">Donate</a>. This page uses <a href="https://imageoptim.com/api">ImageOptim API</a>.</p>
+</form>
+

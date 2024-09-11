@@ -1,9 +1,16 @@
+.key-features-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .key-features-scroll-container {
   display: flex;
   overflow-x: scroll;
   white-space: nowrap;
   padding: 10px 0;
-  scroll-behavior: smooth; /* Smooth scroll for user experience */
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
 .key-features-scroll-container .card {
@@ -11,19 +18,47 @@
   margin: 0 10px;
   border: 1px solid #ddd;
   min-width: 300px;
+  max-width: 300px;
   box-sizing: border-box;
 }
 
 .key-features-scroll-container .card-body {
   padding: 15px;
-  overflow: visible; /* Change to visible to allow content to display */
-  text-align: left; /* Ensure text is left-aligned */
+  text-align: left;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .key-features-scroll-container .card-body p {
   margin: 0;
-  word-wrap: break-word; /* Ensure long words wrap */
-  white-space: normal; /* Allow normal text wrapping */
+  overflow-wrap: break-word;
+}
+
+/* Chevron styling */
+.key-features-chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+/* Move the chevrons slightly outside the container */
+.key-features-chevron.left {
+  left: -30px; /* Move left chevron outside the container */
+}
+
+.key-features-chevron.right {
+  right: -30px; /* Move right chevron outside the container */
+}
+
+.key-features-chevron:hover {
+  color: #555; /* Change color on hover */
 }
 
 .key-features-scroll-container::-webkit-scrollbar {
@@ -37,12 +72,4 @@
 
 .key-features-scroll-container::-webkit-scrollbar-thumb:hover {
   background-color: #555;
-}
-
-.key-features-scroll-container .nav-tabs .nav-item .nav-link {
-  white-space: normal;
-  word-wrap: break-word;
-  text-align: center;
-  max-width: 100%;
-  padding: 5px;
 }

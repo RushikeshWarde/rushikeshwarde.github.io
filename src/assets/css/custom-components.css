@@ -45,3 +45,13 @@
     padding: 1px 5px; /* Smaller padding for a tighter fit */
     border-radius: 5px; /* Slightly smaller rounded corners */
 }
+
+.card-list {
+    border: 0;
+    border-radius: .1875rem;
+    box-shadow: 0 5px 25px 0 #000033;
+    display: inline-block;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}

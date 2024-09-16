@@ -14,7 +14,7 @@ function Tabs({ projectData }) {
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="6">
               <Link to={projectData[0].link}>
-                <Card>
+                <Card className="card-list">
                   <CardHeader>
                     <Nav
                       className="nav-tabs-neutral justify-content-center"
@@ -53,7 +53,7 @@ function Tabs({ projectData }) {
               {projectData.slice(1).map((project, index) => (
                 <Col className="ml-auto mr-auto" md="4" xl="4" key={index}>
                   <Link to={project.link}>
-                    <Card>
+                    <Card className="card-list">
                       <CardHeader>
                         <Nav
                           className="nav-tabs-neutral justify-content-center"

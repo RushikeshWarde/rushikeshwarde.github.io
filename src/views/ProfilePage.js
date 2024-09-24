@@ -62,7 +62,7 @@ function ProfilePage() {
                       <Col md="6" key={index} className="text-center">
                         <img
                           alt={item.caption}
-                          className="img-raised first-tab"
+                          className="img-raised first-tab collections-custom"
                           src={require(`assets/img/portfolio/${item.image}`)}
                         ></img>
                         <p className="carousel-caption-profile d-none d-md-block"><strong class="caption-text-profile">{item.caption}</strong></p>

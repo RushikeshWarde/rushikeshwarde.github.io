@@ -54,4 +54,17 @@
     margin-bottom: 30px;
     position: relative;
     width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card-list:hover {
+    transform: scale(1.1);
+}
+
+.collections-custom {
+    transition: transform 0.3s ease;
+}
+
+.collections-custom:hover {
+    transform: scale(1.1);
 }

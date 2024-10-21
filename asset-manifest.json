@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.5fadc005.css",
-    "main.js": "/static/js/main.b42d07b1.js",
-    "static/js/325.db98a9a9.chunk.js": "/static/js/325.db98a9a9.chunk.js",
-    "static/js/633.f83a3544.chunk.js": "/static/js/633.f83a3544.chunk.js",
-    "static/js/651.1d665c36.chunk.js": "/static/js/651.1d665c36.chunk.js",
-    "static/js/180.7ebdbe7c.chunk.js": "/static/js/180.7ebdbe7c.chunk.js",
-    "static/js/596.47f30544.chunk.js": "/static/js/596.47f30544.chunk.js",
-    "static/js/749.d0fe8a07.chunk.js": "/static/js/749.d0fe8a07.chunk.js",
-    "static/js/656.7e20db1c.chunk.js": "/static/js/656.7e20db1c.chunk.js",
-    "static/js/451.cb36a096.chunk.js": "/static/js/451.cb36a096.chunk.js",
-    "static/js/829.8224965a.chunk.js": "/static/js/829.8224965a.chunk.js",
-    "static/js/75.01ae8b76.chunk.js": "/static/js/75.01ae8b76.chunk.js",
+    "main.js": "/static/js/main.4d9c2ece.js",
+    "static/js/325.4a70cf0f.chunk.js": "/static/js/325.4a70cf0f.chunk.js",
+    "static/js/633.af437140.chunk.js": "/static/js/633.af437140.chunk.js",
+    "static/js/651.9b9e0dfc.chunk.js": "/static/js/651.9b9e0dfc.chunk.js",
+    "static/js/180.08153ea6.chunk.js": "/static/js/180.08153ea6.chunk.js",
+    "static/js/596.3d984e06.chunk.js": "/static/js/596.3d984e06.chunk.js",
+    "static/js/749.df8e19ff.chunk.js": "/static/js/749.df8e19ff.chunk.js",
+    "static/js/656.a335b444.chunk.js": "/static/js/656.a335b444.chunk.js",
+    "static/js/451.8ee4bd15.chunk.js": "/static/js/451.8ee4bd15.chunk.js",
+    "static/js/829.e82b5b39.chunk.js": "/static/js/829.e82b5b39.chunk.js",
+    "static/js/75.979b5319.chunk.js": "/static/js/75.979b5319.chunk.js",
     "static/media/imt-1.png": "/static/media/imt-1.2d4b787405d96a45488d.png",
     "static/media/bg-vr.jpg": "/static/media/bg-vr.c40b60e1dde5c32fcb75.jpg",
     "static/media/bg-ar.jpg": "/static/media/bg-ar.5e9bccd65c4eb99b5790.jpg",
@@ -154,10 +154,10 @@
     "static/media/vr-glasses.png": "/static/media/vr-glasses.3bbcdeae3aa924eab47c.png",
     "index.html": "/index.html",
     "main.5fadc005.css.map": "/static/css/main.5fadc005.css.map",
-    "main.b42d07b1.js.map": "/static/js/main.b42d07b1.js.map"
+    "main.4d9c2ece.js.map": "/static/js/main.4d9c2ece.js.map"
   },
   "entrypoints": [
     "static/css/main.5fadc005.css",
-    "static/js/main.b42d07b1.js"
+    "static/js/main.4d9c2ece.js"
   ]
 }

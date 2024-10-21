@@ -9,7 +9,7 @@
     "portfolioImages": [
     {
       "image": "vsg-5.jpg",
-      "caption": "Shooting Game"
+      "caption": "Shooting Range"
     },
     {
       "image": "aau-4.jpg",
@@ -25,7 +25,7 @@
     },
     {
       "image": "fps-3.jpg",
-      "caption": "First Person Shooter"
+      "caption": "Drone Attack"
     },
     {
       "image": "idv-4.jpg",
@@ -37,7 +37,7 @@
     },
     {
       "image": "mg-3.jpg",
-      "caption": "Multiplayer Game"
+      "caption": "Metaverse"
     },
     {
       "image": "rp-1.jpg",
@@ -45,7 +45,7 @@
     },
     {
       "image": "ta-2.jpg",
-      "caption": "Trigger Application"
+      "caption": "Wild Animal Experience"
     }
   ],
     "projectButtons": [

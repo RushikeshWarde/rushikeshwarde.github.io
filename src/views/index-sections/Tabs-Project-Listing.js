@@ -27,7 +27,7 @@ function Tabs({ projectData }) {
                           className={activeTab === "1" ? "active" : ""}
                           onClick={() => setActiveTab("1")}
                         >
-                          {projectData[0].title}
+                          <strong>{projectData[0].title}</strong>
                         </NavLink>
                       </NavItem>
                     </Nav>
@@ -63,10 +63,10 @@ function Tabs({ projectData }) {
                         >
                           <NavItem>
                             <NavLink
-                              className={activeTab === (index + 2).toString() ? "active" : ""}
-                              onClick={() => setActiveTab((index + 2).toString())}
+                            className={activeTab === "1" ? "active" : ""}
+                            onClick={() => setActiveTab("1")}
                             >
-                              {project.title}
+                              <strong>{project.title}</strong>
                             </NavLink>
                           </NavItem>
                         </Nav>

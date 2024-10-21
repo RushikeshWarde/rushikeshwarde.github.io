@@ -1,6 +1,6 @@
 {
-    "title": "Fantasy Land VR",
-    "ProjectOverview": "'Fantasy Land VR' is an adventurous mini-game designed for the Meta Quest platform, set in a mysterious island environment. The game combines elements of exploration, puzzle-solving, and strategic thinking, offering players a rich and immersive experience. The primary objectives involve navigating the island, activating portals, and overcoming various obstacles, all while avoiding setbacks that can return players to the starting point.",
+    "title": "Fantasy Land",
+    "ProjectOverview": "Fantasy Land is an adventurous mini-game designed for the Meta Quest platform, set in a mysterious island environment. The game combines elements of exploration, puzzle-solving, and strategic thinking, offering players a rich and immersive experience. The primary objectives involve navigating the island, activating portals, and overcoming various obstacles, all while avoiding setbacks that can return players to the starting point.",
     "videoUrl" : "https://www.youtube.com/embed/J5qt8qk5kUk?si=YP-QSp4Wq92S9gnu",
     "carouselItems": [
       {
@@ -74,6 +74,6 @@
         "details": "The game incorporates VR-specific mechanics, such as motion controls for interacting with objects and navigating the environment. The portal system is a key technical feature, allowing for seamless transitions between different parts of the island."
       }
     ],
-    "Conclusion": "'Fantasy Land VR' offers an engaging and immersive experience, blending exploration, strategy, and problem-solving in a beautifully crafted virtual world. Its unique mechanics and challenging gameplay make it a compelling adventure for players looking to test their skills and explore a fantastical environment."
+    "Conclusion": "Fantasy Land offers an engaging and immersive experience, blending exploration, strategy, and problem-solving in a beautifully crafted virtual world. Its unique mechanics and challenging gameplay make it a compelling adventure for players looking to test their skills and explore a fantastical environment."
   }
   

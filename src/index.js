@@ -6,14 +6,14 @@ import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.5.0";
 //import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
 
-import Tabs from "views/index-sections/Tabs.js";
+import Tabs from "views/index-sections/Tabs-Project-Listing";
 import ProfilePage from "views/ProfilePage.js";
 
 import VRProjectsListingPage from "views/VRProjectsListingPage.js";
 import WebProjectsListingPage from "views/WebProjectsListingPage.js";
 import ARProjectsListingPage from "views/ARProjectsListingPage.js";
 
-import BlogTemplate from "views/blogposts/BlogTemplate.js";
+import BlogTemplate from "views/BlogTemplate.js";
 
 import VRProjectData from "data/VRProjects.json";
 import WebProjectData from "data/WebProjects.json";

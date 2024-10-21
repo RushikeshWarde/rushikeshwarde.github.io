@@ -79,14 +79,15 @@ function ProfilePage() {
                   <div className="nav-align-center">
                     <Link to={project.link}>
                       <Button className="btn btn-info btn-lg project-button" size="lg">
-                        <p>
-                          <img
-                            src={icons[project.icon]}
+                        <p><h6 style={{
+                        marginTop: "1px",
+                        marginBottom: "1px"
+                    }}><img src={icons[project.icon]}
                             style={{ width: "20px", height: "20px" }}
                             alt=""
                           />{" "}
                           {project.title}
-                        </p>
+                          </h6></p>
                       </Button>
                     </Link>
                   </div>

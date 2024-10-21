@@ -8,7 +8,7 @@ import { Container, Row, Col } from "reactstrap";
 // core components
 import Navbar from "components/Navbars/ProjectsNavbar.js";
 import ProjectsPageHeader from "components/Headers/ProjectsListingPageHeader.js";
-import DefaultFooter from "components/Footers/Footer.js";
+import Footer from "components/Footers/Footer.js";
 
 function ProjectsListingPage() {
   // For Page Name
@@ -67,7 +67,7 @@ function ProjectsListingPage() {
             <Tabs projectData={projectData} />
           </Container>
         </div>
-        <DefaultFooter />
+        <Footer />
       </div>
     </>
   );

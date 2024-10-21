@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Trigger Application",
+    "title": "Wild Animal Experience",
     "image": "ta1",
     "link": "/ARProjects/trigger-application-ar",
     "jsonFile": "TriggerApplicationAR.json"

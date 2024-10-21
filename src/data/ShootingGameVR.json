@@ -1,6 +1,6 @@
 {
-  "title": "Shooting Game VR",
-  "ProjectOverview": "Shooting Game VR is an immersive training experience designed specifically for the Meta Quest platform. It combines interactive gameplay mechanics, such as remote weapon grabbing, physical button interactions, and haptic feedback, to create a highly engaging and realistic virtual environment. The game focuses on honing the player's shooting skills by providing various objectives, including locating stationary and practice targets, and setting traps. It also incorporates innovative features like automatic door closures and disappearing targets, enhancing both the challenge and interactivity. The game is optimized for smooth performance, ensuring a seamless and enjoyable user experience.",
+  "title": "Shooting Range",
+  "ProjectOverview": "Shooting Range is an immersive training experience designed specifically for the Meta Quest platform. It combines interactive gameplay mechanics, such as remote weapon grabbing, physical button interactions, and haptic feedback, to create a highly engaging and realistic virtual environment. The game focuses on honing the player's shooting skills by providing various objectives, including locating stationary and practice targets, and setting traps. It also incorporates innovative features like automatic door closures and disappearing targets, enhancing both the challenge and interactivity. The game is optimized for smooth performance, ensuring a seamless and enjoyable user experience.",
   "videoUrl" : "https://www.youtube.com/embed/8s42uZ2NZdk?si=GTlckbfweAj3fw2i",
   "carouselItems": [
     {
@@ -95,5 +95,5 @@
         ]
       }
     ],
-  "Conclusion": "Shooting Game VR combines advanced VR mechanics with engaging gameplay elements, offering a comprehensive training experience. Its focus on interaction, realism, and optimization makes it a compelling choice for both casual players and those seeking serious VR training simulations."
+  "Conclusion": "Shooting Range combines advanced VR mechanics with engaging gameplay elements, offering a comprehensive training experience. Its focus on interaction, realism, and optimization makes it a compelling choice for both casual players and those seeking serious VR training simulations."
 }

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Shooting Game",
+    "title": "Shooting Range",
     "image": "vsg5",
     "link": "/VRProjects/shooting-game",
     "jsonFile": "ShootingGameVR.json"
@@ -9,30 +9,30 @@
   {
     "id": 2,
     "title": "Advanced Architecture Utility",
-    "image": "aau1",
+    "image": "aau4",
     "link": "/VRProjects/advanced-architecture-utility",
     "jsonFile": "AdvancedArchitectureUtility.json"
   },
   {
     "id": 3,
+    "title": "Interactive Museum Tour",
+    "image": "imt1",
+    "link": "/VRProjects/museum-tour",
+    "jsonFile": "InteractiveMuseumTourVR.json"
+  },
+  {
+    "id": 4,
     "title": "Fantasy Land",
     "image": "fl2",
     "link": "/VRProjects/fantasy-land",
     "jsonFile": "FantasyLandVR.json"
   },
   {
-    "id": 4,
-    "title": "First Person Shooter",
+    "id": 5,
+    "title": "Drone Attack",
     "image": "fps1",
     "link": "/VRProjects/first-person-shooter",
     "jsonFile": "FirstPersonShooterVR.json"
-  },
-  {
-    "id": 5,
-    "title": "Interactive Museum Tour",
-    "image": "imt1",
-    "link": "/VRProjects/museum-tour",
-    "jsonFile": "InteractiveMuseumTourVR.json"
   },
   {
     "id": 6,

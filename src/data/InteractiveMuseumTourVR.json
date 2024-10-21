@@ -1,6 +1,6 @@
 {
-    "title": "Interactive Museum Tour VR",
-    "ProjectOverview": "'Interactive Museum Tour VR' is a virtual reality experience that allows users to explore the solar system in an immersive and interactive way. This VR museum showcases 3D models of celestial objects and provides educational content about the formation and structure of the solar system. The experience is designed to be both informative and engaging, leveraging advanced VR technology to optimize rendering and enhance user interaction.",
+    "title": "Interactive Museum Tour",
+    "ProjectOverview": "Interactive Museum Tour is a virtual reality experience that allows users to explore the solar system in an immersive and interactive way. This VR museum showcases 3D models of celestial objects and provides educational content about the formation and structure of the solar system. The experience is designed to be both informative and engaging, leveraging advanced VR technology to optimize rendering and enhance user interaction.",
     "videoUrl" : "https://www.youtube.com/embed/OeFJKuTctPE?si=UWO56iiNPuNjcf_Z",
     "carouselItems": [
       {
@@ -47,7 +47,7 @@
     "KeyFeatures": [
       {
         "title": "Interactive 3D Models",
-        "description": "The VR museum features highly detailed 3D models of celestial objects, including planets, moons, and the sun. These models appear as users approach designated pedestals, utilizing a Level of Detail (LOD) system to optimize performance. The models provide an up-close and personal view of astronomical features, allowing users to explore and interact with them in a way that enhances understanding and engagement."
+        "description": "The VR museum features highly detailed 3D models of celestial objects, including planets, moons, and the sun. The models provide an up-close and personal view of astronomical features, allowing users to explore and interact with them in a way that enhances understanding and engagement."
       },
       {
         "title": "Optimized Rendering with LOD System",
@@ -84,6 +84,6 @@
         "details": "The experience integrates multimedia elements, including videos and images, to deliver educational content. This multimedia approach helps convey complex scientific information in an accessible and engaging manner."
       }
     ],
-    "Conclusion": "'Interactive Museum Tour VR' offers a unique and engaging way to explore the solar system, combining interactive 3D models, optimized rendering, and rich educational content. This VR experience is designed to be both informative and immersive, providing a captivating way to learn about the universe."
+    "Conclusion": "Interactive Museum Tour offers a unique and engaging way to explore the solar system, combining interactive 3D models, optimized rendering, and rich educational content. This VR experience is designed to be both informative and immersive, providing a captivating way to learn about the universe."
   }
   

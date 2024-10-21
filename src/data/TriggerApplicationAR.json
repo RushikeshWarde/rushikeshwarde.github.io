@@ -1,6 +1,6 @@
 {
-    "title": "Trigger Application AR",
-    "ProjectOverview": "'Trigger Application AR' is an augmented reality experience developed using Sense XR, where users can interact with various animals through animations and control their behavior using intuitive buttons. The application allows users to switch between different animals, each with unique animations such as running, attacking, or displaying idle behavior. The experience also features a zoom function to get a closer look at the animals, enhancing the user's immersion and understanding of the differences between them, such as size comparisons between a giraffe and a bee.",
+    "title": "Wild Animal Experience",
+    "ProjectOverview": "Wild Animal Experience is an Augmented Reality experience developed using Sense XR, where users can interact with various animals through animations and control their behavior using intuitive buttons. The application allows users to switch between different animals, each with unique animations such as running, attacking, or displaying idle behavior. The experience also features a zoom function to get a closer look at the animals, enhancing the user's immersion and understanding of the differences between them, such as size comparisons between a giraffe and a bee.",
     "videoUrl" : "https://www.youtube.com/embed/kgQpcD77mfI?si=9uTp8O0kII4BAX61",
     "carouselItems": [
       {
@@ -68,6 +68,6 @@
         "details": "Provides educational information about each animal, enhancing the learning experience."
       }
     ],
-    "Conclusion": "'Trigger Application AR' is designed to be both educational and entertaining, making it ideal for users interested in exploring animal behavior in an interactive, augmented reality environment."
+    "Conclusion": "Wild Animal Experience is designed to be both educational and entertaining, making it ideal for users interested in exploring animal behavior in an interactive, augmented reality environment."
   }
   

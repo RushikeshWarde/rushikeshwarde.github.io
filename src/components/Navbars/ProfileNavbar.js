@@ -38,9 +38,20 @@ function ProfileNavbar({ title }) {
       <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           {showTitle && (
-            <div style={{ position: "absolute", left: "50%", transform: "translateX(-50%)" }}>
-              <h4 style={{ color: "#fff", margin: 0 }}><strong>{title}</strong></h4>
-            </div>
+            <Nav className="mr-auto ml-auto" 
+               style={{
+                 position: "absolute",
+                 left: "50%",
+                 transform: "translateX(-50%)",
+                 color: "#fff",
+                 textAlign: "center",
+               }}
+            navbar> 
+              <p><h4 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong>{title}</strong></h4></p>
+            </Nav>
           )}
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -49,8 +60,11 @@ function ProfileNavbar({ title }) {
                 target="_blank"
                 id="tooltip-linkedin"
               >
-                <p><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
-                Connect</p>
+                <p><h5 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Connect</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
                 Connect with me on Linkedin
@@ -62,8 +76,11 @@ function ProfileNavbar({ title }) {
                 target="_blank"
                 id="tooltip-youtube"
               >
-                <p><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
-                 Subscribe</p>
+                <p><h5 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Subscribe</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">
                 Subscribe to my YouTube Channel

@@ -1,6 +1,6 @@
 {
-    "title": "Interior Design VR",
-    "ProjectOverview": "'Interior Design VR' is a cutting-edge virtual reality application that revolutionizes the way users conceptualize and visualize interior spaces. This interactive tool allows users to modify textures and designs in real-time, providing a dynamic and immersive environment for exploring various interior design possibilities. The VR setting facilitates a hands-on approach to designing spaces, making it easier to experiment with different styles, colors, and materials.",
+    "title": "Interior Design",
+    "ProjectOverview": "Interior Design is a cutting-edge virtual reality application that revolutionizes the way users conceptualize and visualize interior spaces. This interactive tool allows users to modify textures and designs in real-time, providing a dynamic and immersive environment for exploring various interior design possibilities. The VR setting facilitates a hands-on approach to designing spaces, making it easier to experiment with different styles, colors, and materials.",
     "videoUrl" : "https://www.youtube.com/embed/bVi4-JYj9_E?si=IWcI1aMy72_Dhu2C",
     "carouselItems": [
       {
@@ -73,6 +73,6 @@
         "details": "Changes made in the virtual space are reflected in real-time, providing immediate visual feedback. This feature is crucial for making informed design decisions and understanding how different elements work together."
       }
     ],
-    "Conclusion": "'Interior Design VR' offers a powerful tool for designers, homeowners, and anyone interested in interior aesthetics. By providing a platform for real-time visualization and interaction, it allows users to explore an infinite range of design possibilities, making it an invaluable resource for creating beautiful and functional spaces."
+    "Conclusion": "Interior Design offers a powerful tool for designers, homeowners, and anyone interested in interior aesthetics. By providing a platform for real-time visualization and interaction, it allows users to explore an infinite range of design possibilities, making it an invaluable resource for creating beautiful and functional spaces."
   }
   

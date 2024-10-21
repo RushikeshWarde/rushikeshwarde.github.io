@@ -1,6 +1,6 @@
 {
     "title": "Jet Engine Disassembly",
-    "ProjectOverview": "'Jet Engine Disassembly' is an immersive VR application designed for aerospace engineering training. It allows users to disassemble and reassemble a jet engine, offering an interactive experience to identify and understand the various components. The use of color coding and interactive controllers enhances the learning experience, making it easier to grasp the functionality and placement of each part.",
+    "ProjectOverview": "Jet Engine Disassembly is an immersive VR application designed for aerospace engineering training. It allows users to disassemble and reassemble a jet engine, offering an interactive experience to identify and understand the various components. The use of color coding and interactive controllers enhances the learning experience, making it easier to grasp the functionality and placement of each part.",
     "videoUrl" : "https://www.youtube.com/embed/FJRd0YrFlds?si=Djax6o-ATWiZ32Si",
     "carouselItems": [
       {
@@ -64,6 +64,6 @@
         "details": "Parts return to original positions when manipulated, ensuring accurate reassembly."
       }
     ],
-    "Conclusion": "'Jet Engine Disassembly' is a valuable tool for anyone looking to deepen their knowledge of jet engine mechanics and improve their skills in aerospace engineering."
+    "Conclusion": "Jet Engine Disassembly is a valuable tool for anyone looking to deepen their knowledge of jet engine mechanics and improve their skills in aerospace engineering."
   }
   

@@ -40,25 +40,36 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
           <Nav className="mr-auto" navbar>
             <NavItem>
               <Link to={`/${projectCategory}`}>
-                <NavLink>
-                  <p><img src={icon} style={{ width: "20px", height: "20px" }} /> Projects</p>
+                <NavLink id="tooltip-projects">
+                  <p><h5 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong><img src={icon} style={{ width: "20px", height: "20px" }} /> Projects</strong></h5></p>
                 </NavLink>
               </Link>
+              <UncontrolledTooltip target="#tooltip-projects">
+                Back to Projects
+              </UncontrolledTooltip>
             </NavItem>
           </Nav>
+          
           {showTitle && (
-            <div
-              style={{
-                position: "absolute",
-                left: "50%",
-                transform: "translateX(-50%)",
-                color: "#fff",
-                textAlign: "center",
-              }}
-            >
-              <h4><strong>{title}</strong></h4>
-            </div>
+            <Nav className="mr-auto ml-auto" 
+               style={{
+                 position: "absolute",
+                 left: "50%",
+                 transform: "translateX(-50%)",
+                 color: "#fff",
+                 textAlign: "center",
+               }}
+            navbar> 
+              <p><h4 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong>{title}</strong></h4></p>
+            </Nav>
           )}
+          
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink
@@ -66,8 +77,11 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                 target="_blank"
                 id="tooltip-linkedin"
               >
-                <p><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
-                Connect</p>
+                <p><h5 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Connect</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
                 Connect with me on Linkedin
@@ -79,8 +93,11 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                 target="_blank"
                 id="tooltip-youtube"
               >
-                <p><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
-                Subscribe</p>
+                <p><h5 style={{
+                  marginTop: "5px",
+                  marginBottom: "5px"
+              }}><strong><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+                Subscribe</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">
                 Subscribe to my YouTube Channel

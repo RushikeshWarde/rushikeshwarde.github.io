@@ -1,6 +1,6 @@
 {
-  "title": "Multiplayer Game",
-  "ProjectOverview": "The 'Multiplayer Game' developed by Rushikesh Warde is a metaverse application designed for casual gaming and social interaction. It allows users to create and join virtual rooms where they can meet and chat with friends in real-time. The app provides a simple and accessible way for users to connect and explore virtual spaces together, enhancing social connectivity and engagement.",
+  "title": "Metaverse",
+  "ProjectOverview": "Metaverse is an application designed for casual gaming and social interaction. It allows users to create and join virtual rooms where they can meet and chat with friends in real-time. The app provides a simple and accessible way for users to connect and explore virtual spaces together, enhancing social connectivity and engagement.",
   "videoUrl" : "https://www.youtube.com/embed/L6S7TlXKs7U?si=x8K7JAnvfbAradTr",
   "carouselItems": [
     {
@@ -60,6 +60,6 @@
       "details": "Keyboard controls are implemented for navigation, with support for both mouse and arrow key inputs. This provides users with flexible options for interacting with the virtual environment."
     }
   ],
-  "Conclusion": "The 'Multiplayer Game' offers a simple yet engaging way for users to connect with friends in a virtual space. Its focus on ease of use, real-time communication, and accessible navigation makes it a versatile platform for social gaming and interaction."
+  "Conclusion": "Metaverse offers a simple yet engaging way for users to connect with friends in a virtual space. Its focus on ease of use, real-time communication, and accessible navigation makes it a versatile platform for social gaming and interaction."
 }
   

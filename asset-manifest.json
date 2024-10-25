@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.5fadc005.css",
-    "main.js": "/static/js/main.54faef72.js",
+    "main.js": "/static/js/main.198a0ee4.js",
     "static/js/325.4a70cf0f.chunk.js": "/static/js/325.4a70cf0f.chunk.js",
     "static/js/633.af437140.chunk.js": "/static/js/633.af437140.chunk.js",
-    "static/js/651.9b9e0dfc.chunk.js": "/static/js/651.9b9e0dfc.chunk.js",
+    "static/js/651.2d026e43.chunk.js": "/static/js/651.2d026e43.chunk.js",
     "static/js/180.08153ea6.chunk.js": "/static/js/180.08153ea6.chunk.js",
     "static/js/596.3d984e06.chunk.js": "/static/js/596.3d984e06.chunk.js",
     "static/js/749.df8e19ff.chunk.js": "/static/js/749.df8e19ff.chunk.js",
@@ -154,10 +154,10 @@
     "static/media/vr-glasses.png": "/static/media/vr-glasses.3bbcdeae3aa924eab47c.png",
     "index.html": "/index.html",
     "main.5fadc005.css.map": "/static/css/main.5fadc005.css.map",
-    "main.54faef72.js.map": "/static/js/main.54faef72.js.map"
+    "main.198a0ee4.js.map": "/static/js/main.198a0ee4.js.map"
   },
   "entrypoints": [
     "static/css/main.5fadc005.css",
-    "static/js/main.54faef72.js"
+    "static/js/main.198a0ee4.js"
   ]
 }

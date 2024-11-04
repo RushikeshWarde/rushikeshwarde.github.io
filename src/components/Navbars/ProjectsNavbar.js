@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
 import {
@@ -44,7 +44,7 @@ function ProjectsNavbar({title}) {
                   <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-                }}><strong><img src={icons["profileIcon"]} style={{ width: "25px", height: "25px", marginRight: "8px" }} />
+                }}><strong><img src={icons["profileIcon"]} alt="" style={{ width: "25px", height: "25px", marginRight: "8px" }} />
                       Profile</strong></h5></p>
                   </NavLink>
                 </Link>
@@ -79,7 +79,7 @@ function ProjectsNavbar({title}) {
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["linkedinIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Connect</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
@@ -95,7 +95,7 @@ function ProjectsNavbar({title}) {
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["youtubeIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Subscribe</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">

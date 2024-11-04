@@ -36,7 +36,7 @@ function Tabs({ projectData }) {
                     <TabContent className="text-center" activeTab={"1"}>
                       <TabPane tabId="1">
                         <img
-                          alt="..."
+                          alt=""
                           className="first-tab"
                           src={images[projectData[0].image]}
                         />
@@ -75,7 +75,7 @@ function Tabs({ projectData }) {
                         <TabContent className="text-center" activeTab={(index + 2).toString()}>
                           <TabPane tabId={(index + 2).toString()}>
                             <img
-                              alt="..."
+                              alt=""
                               className="other-tab"
                               src={images[project.image]}
                             />
@@ -94,6 +94,7 @@ function Tabs({ projectData }) {
                   <img
                     className="img-raised"
                     src={images["cs"]}
+                    alt=""
                     style={{width:"300px", height:"206px" }}
                   />
                 </h5>

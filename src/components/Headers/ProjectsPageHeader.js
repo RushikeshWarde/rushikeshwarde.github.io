@@ -16,7 +16,7 @@ function ProjectsPageHeader({ title, headerImage }) {
         window.removeEventListener("scroll", updateScroll);
       };
     }
-  }, []);
+  }, [pageHeader]);
 
   return (
     <>

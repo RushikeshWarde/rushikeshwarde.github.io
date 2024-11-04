@@ -44,7 +44,7 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                   <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icon} style={{ width: "20px", height: "20px" }} /> Projects</strong></h5></p>
+              }}><strong><img src={icon} alt="" style={{ width: "20px", height: "20px" }} /> Projects</strong></h5></p>
                 </NavLink>
               </Link>
               <UncontrolledTooltip target="#tooltip-projects">
@@ -80,7 +80,7 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["linkedinIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Connect</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
@@ -96,7 +96,7 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["youtubeIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Subscribe</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">

@@ -63,7 +63,7 @@ function ProfileNavbar({ title }) {
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["linkedinIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["linkedinIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Connect</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-linkedin">
@@ -79,7 +79,7 @@ function ProfileNavbar({ title }) {
                 <p><h5 style={{
                   marginTop: "5px",
                   marginBottom: "5px"
-              }}><strong><img src={icons["youtubeIcon"]} style={{ width: "20px", height: "20px", marginRight: "8px" }} />
+              }}><strong><img src={icons["youtubeIcon"]} alt="" style={{ width: "20px", height: "20px", marginRight: "8px" }} />
                 Subscribe</strong></h5></p>
               </NavLink>
               <UncontrolledTooltip target="#tooltip-youtube">

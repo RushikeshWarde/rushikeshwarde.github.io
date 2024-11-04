@@ -1,7 +1,7 @@
 // TechnicalDetails.js
 import React, { useState } from "react";
 import { Card, CardBody, CardTitle, CardText, Collapse, Row, Col } from "reactstrap";
-import { FaBoxes, FaUndo, FaPalette, FaChevronDown, FaChevronRight ,FaDesktop, FaMobileAlt, FaImage, FaPaintBrush, FaTachometerAlt, FaTablet, FaGamepad, FaJoystick, FaClock, FaSync, FaCube, FaSlidersH, FaPaintRoller, FaRobot, FaBrain, FaHandPointer, FaMousePointer, FaVolumeUp, FaHeadphones, FaBook, FaChalkboard, FaGraduationCap, FaBookOpen, FaPlay, FaFilm, FaSearchPlus, FaSearchMinus, FaArrowsAlt, FaRuler, FaFolder, FaFileAlt, FaComment, FaComments, FaMap, FaCompass, FaKeyboard, FaMouse, FaHandRock, FaHands, FaChartLine, FaLayerGroup, FaCogs } from 'react-icons/fa';
+import { FaBoxes, FaUndo, FaPalette, FaChevronDown, FaChevronRight ,FaDesktop, FaImage, FaTablet, FaGamepad, FaSync, FaCube, FaSlidersH, FaBrain, FaHandPointer, FaVolumeUp, FaChalkboard, FaGraduationCap, FaPlay, FaSearchPlus, FaArrowsAlt, FaFolder, FaComments, FaCompass, FaKeyboard, FaHands, FaChartLine, FaCogs } from 'react-icons/fa';
 
 import "assets/css/TechnicalDetails.css";
 

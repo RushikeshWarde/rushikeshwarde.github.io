@@ -108,3 +108,17 @@
 .collections-custom:hover {
     transform: scale(1.1);
 }
+
+h5.profile-page-about-description {
+  max-width: 700px;
+  margin: 25px auto 25px;
+}
+
+.pg-header-img {
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}

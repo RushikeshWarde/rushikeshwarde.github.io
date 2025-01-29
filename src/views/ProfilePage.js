@@ -42,7 +42,7 @@ function ProfilePage() {
         <div className="section">
           <Container>
             <h3 className="title">{data.aboutTitle}</h3>
-            <h5 className="description">{data.aboutDescription}</h5>
+            <h5 className="profile-page-about-description">{data.aboutDescription}</h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">{data.portfolioTitle}</h4>

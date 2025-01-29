@@ -12,7 +12,7 @@ import Footer from "components/Footers/Footer.js";
 
 function ProjectsListingPage() {
   // For Page Name
-  const title = "VR Development Showcase";
+  const title = "VR Project Showcase";
   
   React.useEffect(() => {
     document.title = title;
@@ -37,30 +37,13 @@ function ProjectsListingPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="10">
                 <br /><br />
-                <h2 className="title">Welcome to My VR Project Gallery</h2>
-                <h5>
-                  <p>
-                    Explore an array of innovative VR projects designed to push the boundaries of immersive technology. 
-                    Each project represents a unique blend of creativity, technical expertise, and a passion for creating 
-                    compelling virtual experiences. From interactive training simulations to captivating VR games, see how 
-                    these projects utilize virtual reality to craft engaging and transformative experiences.
-                  </p>
-                </h5>
-                <br /><br />
                 <h3> <strong>Featured Projects</strong> </h3>
                 <h5>
                   <p>
-                    Dive into detailed descriptions, view stunning visuals, and watch demonstration videos of each project. 
-                    Whether you're a fellow developer, potential collaborator, or VR enthusiast, you'll find a wealth of 
-                    knowledge and inspiration in these VR innovations. Each project is thoroughly documented 
-                    to provide a deep understanding of the development process, technical complexities, and the creative 
-                    solutions employed.
-                    <br />
-                    Feel free to reach out through the provided contact links for any inquiries or potential collaborations. 
-                    Enjoy exploring my VR development showcase!
-                    <br /><br />
+                  Step inside, explore, and interact. My VR projects aren’t just about visuals — they’re about presence. Whether it’s training simulations, interactive experiences, or immersive storytelling, every project is crafted to make users feel truly inside the digital world. With intuitive mechanics, optimized performance, and seamless interactivity, these experiences redefine what’s possible in virtual reality.
                   </p>
                 </h5>
+                <br /><br />
               </Col>
             </Row>
             <Tabs projectData={projectData} />

@@ -29,21 +29,14 @@ function ProfilePageHeader() {
   }
 
   return (
-    <div className="page-header clear-filter page-header-small" filter-color="blue">
+    <div className="page-header page-header-small">
       <div
-        className="page-header-image"
+        className="pg-header-img"
         style={{
           backgroundImage: `url(${require(`assets/img/${data.backgroundImage}`)})`,
         }}
         ref={pageHeader} // Assign the ref to this div
       ></div>
-      <Container>
-        <div className="photo-container">
-          <img className="rounded-circle img-raised" alt="..." src={require(`assets/img/${data.profileImage}`)}></img>
-        </div>
-        <h2 className="title">{data.name}</h2>
-        <h3>{data.title}</h3>
-      </Container>
     </div>
   );
 }

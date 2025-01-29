@@ -12,7 +12,7 @@ import Footer from "components/Footers/Footer.js";
 
 function ProjectsListingPage() {
   // For Page Name
-  const title = "AR Development Showcase";
+  const title = "AR Project Showcase";
   
   React.useEffect(() => {
     document.title = title;
@@ -37,31 +37,13 @@ function ProjectsListingPage() {
             <Row>
               <Col className="ml-auto mr-auto text-center" md="10">
                 <br /><br />
-                <h2 className="title">Welcome to My AR Project Gallery</h2>
+                <h3> <strong>Featured Project</strong> </h3>
                 <h5>
                   <p>
-                    Discover a diverse range of groundbreaking AR projects that are redefining the way we interact with the 
-                    physical world. Each project showcases a unique fusion of creativity, technical prowess, and a passion 
-                    for enhancing real-world experiences through augmented reality. From educational tools to immersive 
-                    entertainment, explore how these projects leverage AR technology to create captivating and transformative 
-                    experiences.
+                  The real world, enhanced. My AR projects blur the line between physical and digital, transforming ordinary spaces into interactive, data-rich experiences. Whether overlaying 3D models onto real-world surfaces, enabling gesture-based interactions, or bringing static environments to life, these projects are built to engage, inform, and amaze—no headset required.
                   </p>
                 </h5>
                 <br /><br />
-                <h3> <strong>Featured Projects</strong> </h3>
-                <h5>
-                  <p>
-                    Explore in-depth project descriptions, view impressive visuals, and watch demonstration videos of each 
-                    AR project. Whether you're a fellow developer, potential collaborator, or AR enthusiast, you'll find a 
-                    wealth of insights and inspiration in these pioneering AR innovations. Each project is meticulously 
-                    documented to provide a comprehensive understanding of the development process, technical challenges, 
-                    and the innovative solutions implemented.
-                    <br />
-                    Feel free to reach out through the provided contact links for any inquiries or potential collaborations. 
-                    Enjoy exploring my AR development showcase!
-                    <br /><br />
-                  </p>
-                </h5>
               </Col>
             </Row>
             <Tabs projectData={projectData} />

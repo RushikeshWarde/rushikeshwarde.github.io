@@ -4,16 +4,14 @@ import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import "assets/css/bootstrap.min.css";
 import "assets/scss/now-ui-kit.scss?v=1.5.0";
-//import "assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
+import "assets/css/global.css";
 
-import Tabs from "views/index-sections/Tabs-Project-Listing";
-import ProfilePage from "views/ProfilePage.js";
-
-import VRProjectsListingPage from "views/VRProjectsListingPage.js";
-import WebProjectsListingPage from "views/WebProjectsListingPage.js";
-import ARProjectsListingPage from "views/ARProjectsListingPage.js";
-
-import BlogTemplate from "views/BlogTemplate.js";
+import Tabs from "components/Tabs-Project-Listing";
+import ProfilePage from "views/ProfilePage";
+import VRProjectsListingPage from "views/VRProjectsListingPage";
+import WebProjectsListingPage from "views/WebProjectsListingPage";
+import ARProjectsListingPage from "views/ARProjectsListingPage";
+import BlogTemplate from "views/BlogTemplate";
 
 import VRProjectData from "data/VRProjects.json";
 import WebProjectData from "data/WebProjects.json";

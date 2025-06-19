@@ -1,16 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// reactstrap components
-import {
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  UncontrolledTooltip
-} from "reactstrap";
+import { Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip } from "reactstrap";
 
-import {icons} from "assets/iconImports.js"
+import {icons} from "assets/iconImports";
 
 function ProjectsNavbar({title}) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -35,7 +27,7 @@ function ProjectsNavbar({title}) {
   }, []);
   return (
     <>
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"navbar-title fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
             <Nav className="mr-auto" navbar>
               <NavItem>

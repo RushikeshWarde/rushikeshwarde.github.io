@@ -8,10 +8,10 @@
         box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
     }
 
-    .card &{
-        border-top-right-radius: $border-radius-small;
-        border-top-left-radius: $border-radius-small;
-    }
+    // .card &{
+    //     border-top-right-radius: $border-radius-small;
+    //     border-top-left-radius: $border-radius-small;
+    // }
 
     > .nav-item{
         > .nav-link{
@@ -21,9 +21,10 @@
             background-color: $transparent-bg;
             border: 1px solid $transparent-bg;
             border-radius: 30px;
-            font-size: $font-size-base;
+            //font-size: $font-size-base; //handled separately in custom-components.css
             padding: $padding-btn-vertical $padding-round-horizontal;
             line-height: $line-height-general;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
             &:hover {
                 background-color: $transparent-bg;
@@ -31,7 +32,7 @@
 
             &.active{
                 /*background-color: #250c0c52 !important;*/
-                background-color: #4792c0cc !important;
+                background-color: #0087ffd4 !important; //#4792c0cc #0087ff
                 border-radius: 30px;
                 color: $white-color;
             }

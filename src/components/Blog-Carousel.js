@@ -1,16 +1,7 @@
 import React from "react";
+import {Container, Row, Col, Carousel, CarouselItem, CarouselIndicators } from "reactstrap";
 
-// reactstrap components
-import {
-  Container,
-  Row,
-  Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators
-} from "reactstrap";
-
-import {images} from "assets/imageImports.js"
+import {images} from "assets/imageImports";
 
 //items passed on blog page
 function CarouselSection({items}) {

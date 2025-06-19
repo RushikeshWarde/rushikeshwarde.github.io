@@ -1,15 +1,7 @@
 import React, { useRef, useEffect } from "react";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Nav,
-  NavItem,
-  NavLink,
-  TabContent,
-  TabPane,
-} from "reactstrap";
-import "../assets/css/KeyFeatures.css"; // Ensure you have the correct path to your CSS
+import { Card, CardHeader, CardBody, Nav, NavItem, NavLink, TabContent, TabPane } from "reactstrap";
+
+import "assets/css/KeyFeatures.css"; 
 
 const KeyFeatures = ({ keyFeatures }) => {
   const keyFeaturesRef = useRef(null);

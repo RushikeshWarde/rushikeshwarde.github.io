@@ -1,0 +1,31 @@
+.bgPattern {
+  --bg-base:   #dce0fe;
+  --line:      rgba(0,0,0,0.04);
+  --cell-size: 60px;
+
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--cell-size));
+  grid-auto-rows: var(--cell-size);
+  background-color: var(--bg-base);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+
+.glow-purple {
+  border-color: #8f7bff;
+  box-shadow: 0 0 6px #8f7bff, 0 0 20px #8f7bff;
+}
+
+.glow-cyan {
+  border-color: #5ddfff;
+  box-shadow: 0 0 6px #5ddfff, 0 0 20px #5ddfff;
+}

@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardBody, NavItem, NavLink, Nav, TabContent, TabPane, Container, Row, Col } from "reactstrap";
-import { images } from "assets/imageImports.js";
+
+import { images } from "assets/imageImports";
 import "assets/css/custom-components.css";
 
 function Tabs({ projectData }) {
-  const [activeTab, setActiveTab] = React.useState("1");
+  const [activeTab] = React.useState("");
 
   return (
     <>
@@ -24,8 +25,8 @@ function Tabs({ projectData }) {
                     >
                       <NavItem>
                         <NavLink
-                          className={activeTab === "1" ? "active" : ""}
-                          onClick={() => setActiveTab("1")}
+                          className={activeTab === "1" ? "" : "first-tab-title"}
+                          // onClick={() => setActiveTab("1")}
                         >
                           <strong>{projectData[0].title}</strong>
                         </NavLink>
@@ -63,8 +64,8 @@ function Tabs({ projectData }) {
                         >
                           <NavItem>
                             <NavLink
-                            className={activeTab === "1" ? "active" : ""}
-                            onClick={() => setActiveTab("1")}
+                            className={activeTab === "1" ? "" : "other-tab-title"}
+                            // onClick={() => setActiveTab("1")}
                             >
                               <strong>{project.title}</strong>
                             </NavLink>

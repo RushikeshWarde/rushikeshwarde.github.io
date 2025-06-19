@@ -1,19 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Carousel from "views/index-sections/Blog-Carousel.js";
-import VideoEmbed from "views/VideoEmbed.js";
-import KeyFeatures from "components/KeyFeatures.js";
-import TechnicalDetails from "components/TechnicalDetails.js";
-import {
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
-import Navbar from "components/Navbars/BlogNavbar.js";
-import ProjectsPageHeader from "components/Headers/ProjectsPageHeader.js";
-import DefaultFooter from "components/Footers/Footer.js";
-import LoadingSpinner from "components/LoadingSpinner.js";
-import { icons } from "assets/iconImports.js"; // Import icons
+import { Container, Row, Col, } from "reactstrap";
+
+import Carousel from "components/Blog-Carousel";
+import VideoEmbed from "components/VideoEmbed";
+import KeyFeatures from "components/KeyFeatures";
+import TechnicalDetails from "components/TechnicalDetails";
+import Navbar from "components/Navbars/BlogNavbar";
+import ProjectsPageHeader from "components/Headers/ProjectsPageHeader";
+import DefaultFooter from "components/Footers/Footer";
+import LoadingSpinner from "components/LoadingSpinner";
+import { icons } from "assets/iconImports"; // Import icons
 
 function BlogTemplate({ projectData, projectCategory }) {
   const { projectName } = useParams();

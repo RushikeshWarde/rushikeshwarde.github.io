@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Container } from "reactstrap";
-import profileData from "data/profileData.json"; // Adjust this path according to your structure
+
+import profileData from "data/profileData.json";
 
 function ProfilePageHeader() {
   const [data, setData] = useState(null);
@@ -11,7 +11,7 @@ function ProfilePageHeader() {
     
     if (window.innerWidth > 991) {
       const updateScroll = () => {
-        if (pageHeader.current) { // Check if pageHeader.current is not null
+        if (pageHeader.current) { 
           let windowScrollTop = window.pageYOffset / 3;
           pageHeader.current.style.transform =
             "translate3d(0," + windowScrollTop + "px,0)";

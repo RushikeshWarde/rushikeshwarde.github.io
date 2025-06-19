@@ -1,4 +1,3 @@
-// TechnicalDetails.js
 import React, { useState } from "react";
 import { Card, CardBody, CardTitle, CardText, Collapse, Row, Col } from "reactstrap";
 import { FaBoxes, FaUndo, FaPalette, FaChevronDown, FaChevronRight ,FaDesktop, FaImage, FaTablet, FaGamepad, FaSync, FaCube, FaSlidersH, FaBrain, FaHandPointer, FaVolumeUp, FaChalkboard, FaGraduationCap, FaPlay, FaSearchPlus, FaArrowsAlt, FaFolder, FaComments, FaCompass, FaKeyboard, FaHands, FaChartLine, FaCogs } from 'react-icons/fa';

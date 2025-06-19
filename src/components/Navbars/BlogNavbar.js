@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  UncontrolledTooltip,
-} from "reactstrap";
+import { Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip } from "reactstrap";
 
-import {icons} from "assets/iconImports.js"
+import {icons} from "assets/iconImports";
 
 function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
   const [navbarColor, setNavbarColor] = useState("navbar-transparent");
@@ -35,7 +28,7 @@ function BlogNavbar({ title, icon, projectCategory }) { // Add icon prop
 
   return (
     <>
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"navbar-title fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           <Nav className="mr-auto" navbar>
             <NavItem>

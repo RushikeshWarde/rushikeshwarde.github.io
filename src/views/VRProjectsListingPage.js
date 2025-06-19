@@ -1,14 +1,11 @@
 import React from "react";
-import Tabs from "./index-sections/Tabs-Project-Listing.js";
-import projectData from "data/VRProjects.json";
-
-// reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
-// core components
-import Navbar from "components/Navbars/ProjectsNavbar.js";
-import ProjectsPageHeader from "components/Headers/ProjectsListingPageHeader.js";
-import Footer from "components/Footers/Footer.js";
+import Tabs from "components/Tabs-Project-Listing";
+import Navbar from "components/Navbars/ProjectsNavbar";
+import ProjectsPageHeader from "components/Headers/ProjectsListingPageHeader";
+import Footer from "components/Footers/Footer";
+import projectData from "data/VRProjects.json";
 
 function ProjectsListingPage() {
   // For Page Name

@@ -1,15 +1,7 @@
 import React, { useState, useEffect } from "react";
-// reactstrap components
-import {
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  UncontrolledTooltip
-} from "reactstrap";
+import { Navbar, NavItem, NavLink, Nav, Container, UncontrolledTooltip } from "reactstrap";
 
-import {icons} from "assets/iconImports.js"
+import {icons} from "assets/iconImports";
 
 function ProfileNavbar({ title }) {
   const [navbarColor, setNavbarColor] = useState("navbar-transparent");
@@ -35,7 +27,7 @@ function ProfileNavbar({ title }) {
 
   return (
     <>
-      <Navbar className={"fixed-top " + navbarColor} color="info" expand="lg">
+      <Navbar className={"navbar-title fixed-top " + navbarColor} color="info" expand="lg">
         <Container>
           {showTitle && (
             <Nav className="mr-auto ml-auto" 

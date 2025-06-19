@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react"; 
 import { Link } from "react-router-dom";
 import { Button, TabContent, TabPane, Container, Row, Col } from "reactstrap";
+
 import Navbar from "components/Navbars/ProfileNavbar";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DefaultFooter from "components/Footers/Footer.js";
-import { icons } from "assets/iconImports.js";
-
+import ProfilePageHeader from "components/Headers/ProfilePageHeader";
+import DefaultFooter from "components/Footers/Footer";
+import HorizontalStats from "components/HorizontalStats";
+import DroppingGrid from "components/DroppingGrid";
+import { icons } from "assets/iconImports";
 import profileData from "data/profileData.json";
-
 import "assets/css/custom-components.css";
+
 
 function ProfilePage() {
   const [data, setData] = useState(null);
@@ -36,13 +38,20 @@ function ProfilePage() {
 
   return (
     <>
+    <DroppingGrid />
       <Navbar title="About" />
       <div className="wrapper">
         <ProfilePageHeader />
         <div className="section">
+          <HorizontalStats />
           <Container>
             <h3 className="title">{data.aboutTitle}</h3>
-            <h5 className="profile-page-about-description">{data.aboutDescription}</h5>
+            <h5 className="profile-page-about-description">{data.aboutDescription.split("\n").map((line,index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}</h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
                 <h4 className="title text-center">{data.portfolioTitle}</h4>
